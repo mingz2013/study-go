@@ -1,7 +1,8 @@
 package main
+
 import "fmt"
 
-func main(){
+func main() {
 
 	var a [2]string
 	a[0] = "Hello"

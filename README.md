@@ -8,7 +8,7 @@
 
 - workspace
 
-`git clone https://github.com/mingz2013/study.go.git ~/go`
+`mkdir ~/go`
 
 `export GOPATH=~/go`
 
@@ -18,9 +18,15 @@
 
 - hello go
 
-`mkdir ~/go/src/github.com/mingz2013/hello`
+`cd ~/go/src/github.com/mingz2013/`
 
-`cd ~/go/src/github.com/mingz2013/hello`
+`git clone https://github.com/mingz2013/study.go.git`
+
+`cd study.go`
+
+`mkdir hello`
+
+`cd hello`
 
 `touch hello.go`
 
