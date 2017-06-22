@@ -2,11 +2,11 @@
 
 
 
-1 install go
+- install go
 
 `brew install go`
 
-2 workspace
+- workspace
 
 `git clone https://github.com/mingz2013/study.go.git ~/go`
 
@@ -16,7 +16,7 @@
 
 `mkdir -p ~/go/src/github.com/mingz2013`
 
-3 hello go
+- hello go
 
 `mkdir ~/go/src/github.com/mingz2013/hello`
 
