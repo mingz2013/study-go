@@ -6,8 +6,6 @@
 
 `brew install go`
 
-
-
 2 workspace
 
 `$git clone https://github.com/mingz2013/study.go.git ~/go`
