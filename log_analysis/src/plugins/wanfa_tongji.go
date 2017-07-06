@@ -9,6 +9,9 @@ func ExcuteWanfa(lines []map[string]interface{}) (result map[string]interface{})
 		play_mode := lines[i]["play_mode"]
 
 		fmt.Println(item_params, play_mode)
+		if _, ok := result[play_mode.(string)]; ok {
+
+		}
 	}
 	return
 }
