@@ -29,3 +29,7 @@ func ReadFileLineToList(file_name string) (lines []string) {
 	}
 
 }
+
+func WriteObjToJsonFile(obj map[string]interface{}, file_name string) {
+
+}

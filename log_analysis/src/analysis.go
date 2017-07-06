@@ -24,7 +24,12 @@ func do_day(day string) {
 	var l []map[string]interface{}
 	l = get_list(file_name)
 	fmt.Println(l)
-	plugins.ExcuteWanfa(l)
+	var result map[string]interface{}
+
+	result = plugins.ExcuteWanfa(l)
+	utils.WriteObjToJsonFile(result, "result/wanfa_"+day+".json")
+
+
 
 }
 
