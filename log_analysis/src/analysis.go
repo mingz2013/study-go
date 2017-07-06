@@ -27,6 +27,7 @@ func do_day(day string) {
 	var result map[string]interface{}
 
 	result = plugins.ExcuteWanfa(l)
+	fmt.Println(result)
 	utils.WriteObjToJsonFile(result, "result/wanfa_"+day+".json")
 
 
