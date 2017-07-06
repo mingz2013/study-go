@@ -1,7 +1,7 @@
 package main
 
-import "fmt"
 import (
+	"fmt"
 	"github.com/mingz2013/study.go/log_analysis/src/utils"
 	"encoding/json"
 	"github.com/mingz2013/study.go/log_analysis/src/plugins"
