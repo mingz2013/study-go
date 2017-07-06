@@ -23,13 +23,13 @@ func do_day(day string) {
 
 	var l []map[string]interface{}
 	l = get_list(file_name)
+	fmt.Println(l)
 	plugins.ExcuteWanfa(l)
 
 }
 
 func get_list(file_name string) (lines2 []map[string]interface{}) {
 	lines := utils.ReadFileLineToList(file_name)
-	fmt.Println(lines)
 	for i := 0; i < len(lines); i++ {
 		var m map[string]interface{}
 		if err := json.Unmarshal([]byte(lines[0]), &m); err == nil {
@@ -37,5 +37,5 @@ func get_list(file_name string) (lines2 []map[string]interface{}) {
 		}
 
 	}
-
+	return
 }
