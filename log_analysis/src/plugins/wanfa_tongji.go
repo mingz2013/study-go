@@ -2,7 +2,6 @@ package plugins
 
 import (
 	"fmt"
-	"go/types"
 )
 
 func ExcuteWanfa(lines []map[string]interface{}) (result map[string]interface{}) {
