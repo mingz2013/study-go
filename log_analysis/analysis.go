@@ -1,10 +1,10 @@
-package main
+package log_analysis
 
 import (
 	"fmt"
-	"github.com/mingz2013/study.go/log_analysis/src/utils"
+	"github.com/mingz2013/study.go/log_analysis/utils"
 	"encoding/json"
-	"github.com/mingz2013/study.go/log_analysis/src/plugins"
+	"github.com/mingz2013/study.go/log_analysis/plugins"
 )
 
 func main() {
