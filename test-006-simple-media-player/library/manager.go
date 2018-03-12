@@ -26,7 +26,7 @@ func (m *MusicManager) Len() int {
 
 func (m *MusicManager) Get(index int) (music *Music, err error) {
 	if index < 0 || index >= len(m.musics) {
-		return nil, errors.New("Index out of range")
+		return nil, errors.New("Index out of range.")
 	}
 	return &m.musics[index], nil
 }
