@@ -47,7 +47,12 @@ func main() {
 `hello`
 
 
+---
 
+
+`go run hello.go`
+
+`go install https://github.com/mingz2013/study.go`
 
 
 

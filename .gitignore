@@ -1,2 +1,4 @@
 bin
 pkg
+.idea/inspectionProfiles/
+test-101-photoweb/uploads/

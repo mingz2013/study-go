@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2dbf4bab-1b57-4dd3-864f-53cc82650c05" name="Default" comment="go study demo">
+    <list default="true" id="2dbf4bab-1b57-4dd3-864f-53cc82650c05" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/log_analysis/src/analysis.go" afterPath="$PROJECT_DIR$/log_analysis/analysis.go" />
-      <change beforePath="$PROJECT_DIR$/log_analysis/src/plugins/fanxing_tongji.go" afterPath="$PROJECT_DIR$/log_analysis/plugins/fanxing_tongji.go" />
-      <change beforePath="$PROJECT_DIR$/log_analysis/src/plugins/fenshu_tongji.go" afterPath="$PROJECT_DIR$/log_analysis/plugins/fenshu_tongji.go" />
-      <change beforePath="$PROJECT_DIR$/log_analysis/src/plugins/shijian_tongji.go" afterPath="$PROJECT_DIR$/log_analysis/plugins/shijian_tongji.go" />
-      <change beforePath="$PROJECT_DIR$/log_analysis/src/plugins/wanfa_tongji.go" afterPath="$PROJECT_DIR$/log_analysis/plugins/wanfa_tongji.go" />
-      <change beforePath="$PROJECT_DIR$/log_analysis/src/utils/file_utils.go" afterPath="$PROJECT_DIR$/log_analysis/utils/file_utils.go" />
-      <change beforePath="$PROJECT_DIR$/log_analysis/src/utils/table_config.go" afterPath="$PROJECT_DIR$/log_analysis/utils/table_config.go" />
-      <change beforePath="$PROJECT_DIR$/packages/packages.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/sandbox/sandbox.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/struct-pointers/struct-pointers.go" afterPath="$PROJECT_DIR$/test-008-struct-pointers/test-008-struct-pointers.go" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change beforePath="$PROJECT_DIR$/log_analysis/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/log_analysis/analysis.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/log_analysis/plugins/fanxing_tongji.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/log_analysis/plugins/fenshu_tongji.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/log_analysis/plugins/shijian_tongji.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/log_analysis/plugins/wanfa_tongji.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/log_analysis/utils/file_utils.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/log_analysis/utils/table_config.go" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,78 +22,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="test-008-struct-pointers.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test-008-struct-pointers/test-008-struct-pointers.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="analysis.go" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/log_analysis/analysis.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fanxing_tongji.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/log_analysis/plugins/fanxing_tongji.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fenshu_tongji.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/log_analysis/plugins/fenshu_tongji.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="shijian_tongji.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/log_analysis/plugins/shijian_tongji.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="file_utils.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/log_analysis/utils/file_utils.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="table_config.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/log_analysis/utils/table_config.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -114,7 +43,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/struct-pointers/struct-pointers.go" />
         <option value="$PROJECT_DIR$/test-002-command-line/test-002-command-line.go" />
         <option value="$PROJECT_DIR$/test-200-tcp-echo/test-200-tcp-echo.go" />
@@ -150,6 +78,9 @@
         <option value="$PROJECT_DIR$/test-203-chess/centergame/center.go" />
         <option value="$PROJECT_DIR$/test-007-chess/game.go" />
         <option value="$PROJECT_DIR$/test-101-photoweb/photoweb.go" />
+        <option value="$PROJECT_DIR$/log_analysis/plugins/wanfa_tongji.go" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -192,25 +123,7 @@
             <path>
               <item name="study.go" type="b2602c69:ProjectViewProjectNode" />
               <item name="study.go" type="462c0819:PsiDirectoryNode" />
-              <item name="log_analysis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study.go" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study.go" type="462c0819:PsiDirectoryNode" />
-              <item name="log_analysis" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study.go" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study.go" type="462c0819:PsiDirectoryNode" />
-              <item name="log_analysis" type="462c0819:PsiDirectoryNode" />
-              <item name="plugins" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study.go" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study.go" type="462c0819:PsiDirectoryNode" />
-              <item name="log_analysis" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="test-100-web-servers" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -398,85 +311,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/packages/packages.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sandbox/sandbox.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-008-struct-pointers/test-008-struct-pointers.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-100-web-servers/test-100-web-servers.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-240">
-            <caret line="18" column="10" lean-forward="true" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hello/hello.go" />
-    <entry file="file://$PROJECT_DIR$/log_analysis/plugins/wanfa_tongji.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-001-hello/test-001-hello.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-002-command-line/test-002-command-line.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-100-web-servers/test-100-web-servers.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-004-array/test-004-array.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/local/Cellar/go/1.10/libexec/src/net/dial.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="8745">
@@ -661,14 +495,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test-101-photoweb/photoweb.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test-007-chess/centergame/center.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="645">
@@ -749,30 +575,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/log_analysis/plugins/fanxing_tongji.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/log_analysis/plugins/fenshu_tongji.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/log_analysis/plugins/shijian_tongji.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/log_analysis/utils/file_utils.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -789,10 +591,136 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../net.frame.go/net.frame.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-11876">
+          <caret line="3" column="3" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../net.frame.go/hello.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.10/libexec/src/net/rpc/jsonrpc/all_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4950">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.10/libexec/src/net/rpc/jsonrpc/client.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-88">
+          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.10/libexec/src/net/rpc/jsonrpc/server.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-767">
+          <caret line="30" column="47" lean-forward="true" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.10/libexec/src/net/rpc/client.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3945">
+          <caret line="28" column="18" lean-forward="true" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.10/libexec/src/net/rpc/server.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="724" column="0" lean-forward="true" selection-start-line="724" selection-start-column="0" selection-end-line="724" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-101-photoweb/photoweb.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log_analysis/plugins/shijian_tongji.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log_analysis/plugins/fenshu_tongji.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log_analysis/plugins/fanxing_tongji.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log_analysis/plugins/wanfa_tongji.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="19" lean-forward="false" selection-start-line="18" selection-start-column="19" selection-end-line="20" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="3" lean-forward="true" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="431">
+            <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+            <folding>
+              <marker date="1520850411409" expanded="true" signature="378:383" ph="..." />
+              <marker date="1520850411409" expanded="true" signature="397:432" ph="{...}" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/log_analysis/analysis.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state relative-caret-position="497">
+          <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-100-web-servers/test-100-web-servers.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding />
         </state>
       </provider>
