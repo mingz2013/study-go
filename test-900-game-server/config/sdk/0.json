@@ -1,4 +1,4 @@
 {
   "ip": "localhost",
-  "post": "8000"
+  "port": 8000
 }
