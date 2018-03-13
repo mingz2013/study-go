@@ -11,7 +11,7 @@ import (
 
 func ConnectSDK(url *string) (ret []byte, err error) {
 
-	loginBody := &sdk.LoginArgs{DeviceId: DEVICE_ID}
+	loginBody := &sdk.LoginReq{DeviceId: DEVICE_ID}
 
 	loginBodyJson, err := json.Marshal(loginBody)
 

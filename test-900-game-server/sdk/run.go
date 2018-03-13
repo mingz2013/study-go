@@ -8,6 +8,7 @@ import (
 	"fmt"
 	"encoding/json"
 	"io/ioutil"
+	"github.com/mingz2013/study.go/test-900-game-server/database"
 )
 
 func LoginHandler(w http.ResponseWriter, r *http.Request) {
@@ -25,7 +26,7 @@ func LoginHandler(w http.ResponseWriter, r *http.Request) {
 	//body = string(b)
 	fmt.Println(string(b))
 
-	var loginArgs LoginArgs
+	var loginArgs LoginReq
 
 	err = json.Unmarshal(b, &loginArgs)
 	if err != nil {
@@ -36,6 +37,7 @@ func LoginHandler(w http.ResponseWriter, r *http.Request) {
 	fmt.Println(loginArgs)
 
 	// TODO db
+	u := database.FindUserByDeviceId(loginArgs.DeviceId)
 
 	c, err := conf.GetGateAddr()
 	if err != nil {
@@ -45,7 +47,9 @@ func LoginHandler(w http.ResponseWriter, r *http.Request) {
 
 	s := c.Servers[0]
 
-	bodyRes, err := json.Marshal(s)
+	loginRes := LoginRes{s, u}
+
+	bodyRes, err := json.Marshal(loginRes)
 
 	if err != nil {
 		log.Fatal(err)

@@ -5,11 +5,14 @@ import (
 	"fmt"
 	"log"
 	"github.com/mingz2013/study.go/test-900-game-server/client"
-	"github.com/mingz2013/study.go/test-900-game-server/conf"
 	"encoding/json"
+	"github.com/mingz2013/study.go/test-900-game-server/sdk"
+	"github.com/mingz2013/study.go/test-900-game-server/database"
 )
 
 var url *string = flag.String("url", "http://localhost:8000/login", "sdk url")
+
+var MyUser database.User
 
 func main() {
 	flag.Parse()
@@ -21,14 +24,16 @@ func main() {
 	}
 	fmt.Println(body)
 
-	var gateAddr conf.ServerAddr
-	err = json.Unmarshal(body, &gateAddr)
+	var loginRes sdk.LoginRes
+	err = json.Unmarshal(body, &loginRes)
 	if err != nil {
 		log.Fatal(err)
 		return
 	}
 
-	conn, err := client.ConnectGate(gateAddr.Ip, gateAddr.Port)
+	MyUser = loginRes.User
+
+	conn, err := client.ConnectGate(loginRes.ServerAddr.Ip, loginRes.ServerAddr.Port)
 
 	if err != nil {
 		log.Fatal(err)
