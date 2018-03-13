@@ -1,7 +1,11 @@
 package client
 
-import "net"
+import (
+	"net"
+	"fmt"
+)
 
 func HandleConn(conn net.Conn) {
+	fmt.Printf(conn.RemoteAddr().String() + "\n")
 
 }
