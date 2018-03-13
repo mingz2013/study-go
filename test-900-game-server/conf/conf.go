@@ -39,3 +39,7 @@ func GetGameAddr() (ServerConfig, error) {
 	return GetServerAddr("config/game/0.json")
 }
 
+func GetHTTPAddr() (ServerConfig, error) {
+	return GetServerAddr("config/http/0.json")
+}
+

@@ -5,6 +5,7 @@ import (
 	"github.com/mingz2013/study.go/test-900-game-server/gate"
 	"github.com/mingz2013/study.go/test-900-game-server/agent"
 	"github.com/mingz2013/study.go/test-900-game-server/game"
+	"github.com/mingz2013/study.go/test-900-game-server/http"
 )
 
 //var serverType *string = flag.String("t", "", "server type to boot")
@@ -31,6 +32,8 @@ func main() {
 	go gate.Run()
 
 	go sdk.Run()
+
+	go http.Run()
 
 	<-ch
 
