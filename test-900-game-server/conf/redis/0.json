@@ -1,0 +1,8 @@
+{
+  "servers": [
+    {
+      "ip": "localhost",
+      "post": 3006
+    }
+  ]
+}
