@@ -6,14 +6,7 @@ import (
 	"fmt"
 )
 
-type JsonStruct struct {
-}
-
-func NewJsonStruct() *JsonStruct {
-	return &JsonStruct{}
-}
-
-func LoadJson(filename string, v interface{}) (err error) {
+func LoadJsonFile(filename string, v interface{}) (err error) {
 	data, err := ioutil.ReadFile(filename)
 	if err != nil {
 		return

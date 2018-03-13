@@ -12,12 +12,12 @@ func Run() {
 
 	var s SDK
 
-	ip, port, err := conf.GetSDKAddr()
+	serverConfig, err := conf.GetSDKAddr()
 	if err != nil {
 		return
 	}
 
-	addr := ip + ":" + strconv.Itoa(port)
+	addr := serverConfig.Servers[0].Ip + ":" + strconv.Itoa(serverConfig.Servers[0].Port)
 
 	fmt.Println(addr)
 

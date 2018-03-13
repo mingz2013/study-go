@@ -1,4 +1,8 @@
 {
-  "ip": "localhost",
-  "port": 8000
+  "servers": [
+    {
+      "ip": "localhost",
+      "port": 8000
+    }
+  ]
 }

@@ -2,15 +2,14 @@ package conf
 
 import "fmt"
 
-func GetSDKAddr() (ServerConfig, error) {
+func GetGateAddr() (ServerConfig, error) {
 
 	var c ServerConfig
 
-	err := LoadJsonFile("config/sdk/0.json", &c)
+	err := LoadJsonFile("config/gate/0.json", &c)
 	if err != nil {
 		return c, err
 	}
 	fmt.Println(c)
 	return c, nil
 }
-
