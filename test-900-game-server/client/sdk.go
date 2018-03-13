@@ -9,7 +9,7 @@ import (
 	"bytes"
 )
 
-func ConnectSDK(url *string) (ret string, err error) {
+func ConnectSDK(url *string) (ret []byte, err error) {
 
 	loginBody := &sdk.LoginArgs{DeviceId: DEVICE_ID}
 
@@ -39,7 +39,7 @@ func ConnectSDK(url *string) (ret string, err error) {
 		return
 	}
 
-	ret = string(b)
+	ret = b
 	//fmt.Println(body)
 	return
 }

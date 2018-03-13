@@ -34,6 +34,26 @@ func LoginHandler(w http.ResponseWriter, r *http.Request) {
 	}
 
 	fmt.Println(loginArgs)
+
+	// TODO db
+
+	c, err := conf.GetGateAddr()
+	if err != nil {
+		log.Fatal(err)
+		return
+	}
+
+	s := c.Servers[0]
+
+	bodyRes, err := json.Marshal(s)
+
+	if err != nil {
+		log.Fatal(err)
+		return
+	}
+
+	w.Write(bodyRes)
+
 	return
 }
 
