@@ -1,4 +1,0 @@
-package conf
-
-import "fmt"
-

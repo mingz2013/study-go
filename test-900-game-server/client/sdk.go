@@ -4,11 +4,24 @@ import (
 	"net/http"
 	"io/ioutil"
 	"log"
+	"github.com/mingz2013/study.go/test-900-game-server/sdk"
+	"encoding/json"
+	"bytes"
 )
 
-func ConnectSDK(url *string) (body string, err error) {
+func ConnectSDK(url *string) (ret string, err error) {
 
-	res, err := http.Get(*url)
+	loginBody := &sdk.LoginArgs{DeviceId: DEVICE_ID}
+
+	loginBodyJson, err := json.Marshal(loginBody)
+
+	if err != nil {
+		log.Fatal(err)
+		return
+	}
+	body := bytes.NewReader(loginBodyJson)
+
+	res, err := http.Post(*url, "json", body)
 
 	if err != nil {
 		log.Fatal(err)
@@ -26,7 +39,7 @@ func ConnectSDK(url *string) (body string, err error) {
 		return
 	}
 
-	body = string(b)
+	ret = string(b)
 	//fmt.Println(body)
 	return
 }
