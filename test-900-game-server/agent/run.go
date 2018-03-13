@@ -1,18 +1,13 @@
-package gate
+package agent
 
 import (
-	"fmt"
-	"net"
-	"io"
 	"strconv"
-	"github.com/mingz2013/study.go/test-900-game-server/conf"
+	"fmt"
 	"log"
+	"io"
+	"net"
+	"github.com/mingz2013/study.go/test-900-game-server/conf"
 )
-
-type Gate struct {
-}
-
-var AgentConn net.Conn
 
 func HandleConn(conn net.Conn) {
 
@@ -22,9 +17,8 @@ func HandleConn(conn net.Conn) {
 	conn.Close()
 }
 
-func ConnectAgent() (err error) {
+func Run() {
 	c, err := conf.GetAgentAddr()
-
 	if err != nil {
 		return
 	}
@@ -33,16 +27,17 @@ func ConnectAgent() (err error) {
 
 	fmt.Println(addr)
 
-	conn, err := net.Dial("tcp", addr)
-
+	listener, err := net.Listen("tcp", addr)
 	if err != nil {
 		log.Fatal(err)
-		return
-
 	}
 
-	AgentConn = conn
-
-	return
-
+	for {
+		conn, err := listener.Accept()
+		if err != nil {
+			log.Fatal(err)
+			continue
+		}
+		go HandleConn(conn)
+	}
 }

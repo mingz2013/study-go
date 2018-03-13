@@ -31,3 +31,7 @@ func GetGateAddr() (ServerConfig, error) {
 	return GetServerAddr("config/gate/0.json")
 }
 
+func GetAgentAddr() (ServerConfig, error) {
+	return GetServerAddr("config/agent/0.json")
+}
+

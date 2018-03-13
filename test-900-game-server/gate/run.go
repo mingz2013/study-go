@@ -6,18 +6,15 @@ import (
 	"strconv"
 	"fmt"
 	"net"
-	"io"
 )
 
-func HandleConn(conn net.Conn) {
-
-	fmt.Printf(conn.RemoteAddr().String() + "\n")
-
-	io.Copy(conn, conn)
-	conn.Close()
-}
-
 func Run() {
+
+	err := ConnectAgent()
+	if err != nil {
+		log.Fatal(err)
+		return
+	}
 
 	c, err := conf.GetGateAddr()
 	if err != nil {
@@ -31,6 +28,7 @@ func Run() {
 	listener, err := net.Listen("tcp", addr)
 	if err != nil {
 		log.Fatal(err)
+		return
 	}
 
 	for {
