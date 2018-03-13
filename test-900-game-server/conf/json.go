@@ -21,6 +21,8 @@ func LoadJson(filename string, v interface{}) (err error) {
 	fmt.Println(string(data))
 	//datajson := []byte(data)
 
+	fmt.Println(v)
+
 	err = json.Unmarshal(data, v)
 	if err != nil {
 		return
