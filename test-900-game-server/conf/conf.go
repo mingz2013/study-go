@@ -35,3 +35,7 @@ func GetAgentAddr() (ServerConfig, error) {
 	return GetServerAddr("config/agent/0.json")
 }
 
+func GetGameAddr() (ServerConfig, error) {
+	return GetServerAddr("config/game/0.json")
+}
+
