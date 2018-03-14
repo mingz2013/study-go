@@ -4,17 +4,16 @@ import (
 	"log"
 	"github.com/mingz2013/study.go/test-900-game-server/conf"
 	"strconv"
-	"fmt"
 	"net"
 )
 
 func Run() {
 
-	err := ConnectAgent()
-	if err != nil {
-		log.Fatal(err)
-		return
-	}
+	//err := ConnectAgent()
+	//if err != nil {
+	//	log.Fatal(err)
+	//	return
+	//}
 
 	c, err := conf.GetGateAddr()
 	if err != nil {
@@ -23,13 +22,17 @@ func Run() {
 
 	addr := c.Servers[0].Ip + ":" + strconv.Itoa(c.Servers[0].Port)
 
-	fmt.Println(addr)
+	//fmt.Println(addr)
+
+
 
 	listener, err := net.Listen("tcp", addr)
 	if err != nil {
 		log.Fatal(err)
 		return
 	}
+
+	go broadcaster()
 
 	for {
 		conn, err := listener.Accept()

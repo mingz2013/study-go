@@ -22,7 +22,7 @@ func main() {
 		log.Fatal(err)
 		return
 	}
-	fmt.Println(body)
+	fmt.Println(string(body))
 
 	var loginRes sdk.LoginRes
 	err = json.Unmarshal(body, &loginRes)

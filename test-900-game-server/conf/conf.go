@@ -1,7 +1,5 @@
 package conf
 
-import "fmt"
-
 type ServerAddr struct {
 	Ip   string
 	Port int
@@ -19,7 +17,7 @@ func GetServerAddr(filename string) (ServerConfig, error) {
 	if err != nil {
 		return c, err
 	}
-	fmt.Println(c)
+	//fmt.Println(c)
 	return c, nil
 }
 
@@ -42,4 +40,3 @@ func GetGameAddr() (ServerConfig, error) {
 func GetHTTPAddr() (ServerConfig, error) {
 	return GetServerAddr("config/http/0.json")
 }
-

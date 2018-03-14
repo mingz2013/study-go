@@ -5,14 +5,13 @@ import (
 	"log"
 	"github.com/mingz2013/study.go/test-900-game-server/conf"
 	"strconv"
-	"fmt"
 	"encoding/json"
 	"io/ioutil"
 	"github.com/mingz2013/study.go/test-900-game-server/database"
 )
 
 func LoginHandler(w http.ResponseWriter, r *http.Request) {
-	fmt.Println(r.RemoteAddr)
+	//fmt.Println(r.RemoteAddr)
 
 	defer r.Body.Close()
 
@@ -24,7 +23,7 @@ func LoginHandler(w http.ResponseWriter, r *http.Request) {
 	}
 
 	//body = string(b)
-	fmt.Println(string(b))
+	//fmt.Println(string(b))
 
 	var loginArgs LoginReq
 
@@ -34,7 +33,7 @@ func LoginHandler(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	fmt.Println(loginArgs)
+	//fmt.Println(loginArgs)
 
 	// TODO db
 	u := database.FindUserByDeviceId(loginArgs.DeviceId)
@@ -72,7 +71,7 @@ func Run() {
 
 	addr := serverConfig.Servers[0].Ip + ":" + strconv.Itoa(serverConfig.Servers[0].Port)
 
-	fmt.Println(addr)
+	//fmt.Println(addr)
 
 	err = http.ListenAndServe(addr, nil)
 	if err != nil {
