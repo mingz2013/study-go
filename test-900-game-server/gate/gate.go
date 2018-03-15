@@ -43,6 +43,29 @@ func broadcaster() {
 
 var AgentConn net.Conn
 
+func ReadMsg(conn net.Conn) ([]byte, error) {
+	//var bufMsgLen [4]byte
+	//bufMsgLen := b[:2]
+	bufMsgLen := make([]byte, 2)
+
+	fmt.Println(bufMsgLen)
+
+	// read len
+	if _, err := io.ReadFull(conn, bufMsgLen); err != nil {
+		return nil, err
+	}
+
+	fmt.Println(bufMsgLen)
+
+	if _, err := io.ReadFull(conn, bufMsgLen); err != nil {
+		return nil, err
+	}
+
+	fmt.Println(bufMsgLen)
+
+	return nil, nil
+}
+
 func HandleConn(conn net.Conn) {
 
 	fmt.Printf("in gate..." + conn.RemoteAddr().String() + "\n")
@@ -56,8 +79,7 @@ func HandleConn(conn net.Conn) {
 	//	//go fmt.Println(input.Text())
 	//}
 
-
-
+	ReadMsg(conn)
 
 
 	io.Copy(conn, conn)
