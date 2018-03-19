@@ -13,4 +13,8 @@ func NewMsg() {
 
 func (m *Msg) Write(conn net.Conn, data []byte) (error) {
 
+	msgLen := len(data)
+
+	conn.Write(data)
+
 }
