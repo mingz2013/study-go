@@ -32,5 +32,5 @@ func getAer() Aer {
 
 func main() {
     a := getAer()
-    a.PrintName()
+	a.PrintName() // a
 }
