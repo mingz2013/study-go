@@ -2,24 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2dbf4bab-1b57-4dd3-864f-53cc82650c05" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/test-007-dup/1.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/test-007-dup/2.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/test-007-dup/test-007-dup.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/test-101-web-server/test-101-web-server.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/test-102-web-server/test-102-web-server.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/test-110-photoweb/uploads/0.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/test-110-photoweb/uploads/1010!.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/test-110-photoweb/uploads/2.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/test-400-lissajous/run.sh" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/test-400-lissajous/test-400-lissajous.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/test-500-fetch/run_fetch.sh" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/test-500-fetch/run_fetchall.sh" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/test-500-fetch/test-500-fetch.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/test-500-fetch/test-500-fetchall.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/test-011-spinner/spinner.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/test-012-pipeline/pipeline.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/test-012-pipeline/pipeline2.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/test-012-pipeline/pipeline3.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/test-201-tcp-echo/netcat3.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/test-501-crawl/crawl1.go" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/test-002-command-line/test-002-command-line.go" afterPath="$PROJECT_DIR$/test-002-command-line/test-002-command-line.go" />
-      <change beforePath="$PROJECT_DIR$/test-100-web-servers/test-100-web-servers.go" afterPath="$PROJECT_DIR$/test-100-web-servers/test-100-web-servers.go" />
-      <change beforePath="$PROJECT_DIR$/test-101-photoweb/photoweb.go" afterPath="$PROJECT_DIR$/test-110-photoweb/photoweb.go" />
+      <change beforePath="$PROJECT_DIR$/test-200-tcp-clock/test-200-tcp-clock.go" afterPath="$PROJECT_DIR$/test-200-tcp-clock/test-200-tcp-clock.go" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,12 +19,52 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
+      <file leaf-file-name="netcat3.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test-201-tcp-echo/netcat3.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="36" column="1" lean-forward="true" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pipeline.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test-012-pipeline/pipeline.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pipeline2.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test-012-pipeline/pipeline2.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pipeline3.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test-012-pipeline/pipeline3.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="test-400-lissajous.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test-400-lissajous/test-400-lissajous.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="557">
-              <caret line="63" column="9" lean-forward="true" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
+              <caret line="58" column="9" lean-forward="true" selection-start-line="58" selection-start-column="9" selection-end-line="58" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -43,18 +73,8 @@
       <file leaf-file-name="test-500-fetch.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test-500-fetch/test-500-fetch.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test-500-fetchall.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test-500-fetch/test-500-fetchall.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+            <state relative-caret-position="450">
+              <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -70,46 +90,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test-100-web-servers.go" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test-100-web-servers/test-100-web-servers.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test-102-web-server.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test-102-web-server/test-102-web-server.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="photoweb.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test-110-photoweb/photoweb.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="37" column="9" lean-forward="true" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test-101-web-server.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test-101-web-server/test-101-web-server.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="run_fetch.sh" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test-500-fetch/run_fetch.sh">
           <provider selected="true" editor-type-id="text-editor">
@@ -120,10 +100,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="out.gif" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test-400-lissajous/out.gif">
-          <provider selected="true" editor-type-id="images">
-            <state />
+      <file leaf-file-name="test-500-fetchall.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test-500-fetch/test-500-fetchall.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="471">
+              <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="crawl1.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test-501-crawl/crawl1.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="600">
+              <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
@@ -164,13 +157,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test-900-game-server/config/sdk/0.json" />
-        <option value="$PROJECT_DIR$/test-900-game-server/conf/sdk.go" />
-        <option value="$PROJECT_DIR$/test-900-game-server/conf/gate.go" />
-        <option value="$PROJECT_DIR$/test-900-game-server/doc/sdk.md" />
-        <option value="$PROJECT_DIR$/test-900-game-server/conf/json.go" />
-        <option value="$PROJECT_DIR$/test-900-game-server/client/conf.go" />
-        <option value="$PROJECT_DIR$/test-900-game-server/doc/gate.md" />
         <option value="$PROJECT_DIR$/test-900-game-server/doc/agent.md" />
         <option value="$PROJECT_DIR$/test-900-game-server/client/gate.go" />
         <option value="$PROJECT_DIR$/test-900-game-server/config/database/db.go" />
@@ -215,6 +201,13 @@
         <option value="$PROJECT_DIR$/test-100-web-servers/test-100-web-servers.go" />
         <option value="$PROJECT_DIR$/test-101-web-server/test-101-web-server.go" />
         <option value="$PROJECT_DIR$/test-102-web-server/test-102-web-server.go" />
+        <option value="$PROJECT_DIR$/test-011-spinner/spinner.go" />
+        <option value="$PROJECT_DIR$/test-200-tcp-clock/test-200-tcp-clock.go" />
+        <option value="$PROJECT_DIR$/test-201-tcp-echo/netcat3.go" />
+        <option value="$PROJECT_DIR$/test-012-pipeline/pipeline.go" />
+        <option value="$PROJECT_DIR$/test-012-pipeline/pipeline2.go" />
+        <option value="$PROJECT_DIR$/test-012-pipeline/pipeline3.go" />
+        <option value="$PROJECT_DIR$/test-501-crawl/crawl1.go" />
       </list>
     </option>
   </component>
@@ -245,6 +238,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -255,29 +250,12 @@
             <path>
               <item name="study.go" type="b2602c69:ProjectViewProjectNode" />
               <item name="study.go" type="462c0819:PsiDirectoryNode" />
-              <item name="test-100-web-servers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study.go" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study.go" type="462c0819:PsiDirectoryNode" />
-              <item name="test-101-web-server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study.go" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study.go" type="462c0819:PsiDirectoryNode" />
-              <item name="test-102-web-server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study.go" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study.go" type="462c0819:PsiDirectoryNode" />
-              <item name="test-110-photoweb" type="462c0819:PsiDirectoryNode" />
+              <item name="test-501-crawl" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -288,16 +266,17 @@
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/test-102-web-server" />
-      <recent name="$PROJECT_DIR$/test-500-fetch" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/test-900-game-server/database" />
       <recent name="$PROJECT_DIR$/test-900-game-server/config/database/redis" />
       <recent name="$PROJECT_DIR$/test-900-game-server" />
       <recent name="$PROJECT_DIR$/log_analysis" />
       <recent name="$PROJECT_DIR$/test-006-simple-media-player/play" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test-012-pipeline" />
+      <recent name="$PROJECT_DIR$/test-102-web-server" />
+      <recent name="$PROJECT_DIR$/test-500-fetch" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -430,14 +409,14 @@
   <component name="ToolWindowManager">
     <frame x="-1237" y="-1080" width="1920" height="1080" extended-state="0" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12353568" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12513313" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16565041" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16565041" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25813007" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25813007" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -471,7 +450,8 @@
     <MESSAGE value="net" />
     <MESSAGE value="rpc" />
     <MESSAGE value="整理代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="整理代码" />
+    <MESSAGE value="示例" />
+    <option name="LAST_COMMIT_MESSAGE" value="示例" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -479,48 +459,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test-800-chess/game.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-800-chess/ipc/client.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-800-chess/ipc/server.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="60" column="0" lean-forward="true" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-800-chess/centergame/centerclient.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-800-chess/centergame/player.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-800-chess/centergame/center.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test-008-struct-pointers/test-008-struct-pointers.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -532,13 +470,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-010-fib/test-010-fib.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -665,7 +596,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="292">
           <caret line="260" column="0" lean-forward="false" selection-start-line="260" selection-start-column="0" selection-end-line="260" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -683,51 +613,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test-200-tcp-clock/client.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-200-tcp-clock/test-200-tcp-clock.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-200-tcp-clock/client.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-201-tcp-echo/test-201-tcp-echo.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="9" lean-forward="false" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-201-tcp-echo/client.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test-202-tcp-chat/test-202-tcp-chat-client.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="24" column="1" lean-forward="false" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -735,7 +624,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
           <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -743,7 +631,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -751,7 +638,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="33" column="13" lean-forward="true" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -759,7 +645,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -767,7 +652,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1185">
           <caret line="79" column="0" lean-forward="true" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -775,7 +659,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="38" lean-forward="true" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-102-web-server/test-102-web-server.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-101-web-server/test-101-web-server.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-100-web-servers/test-100-web-servers.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-110-photoweb/photoweb.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="9" lean-forward="true" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -784,34 +695,106 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test-400-lissajous/test-400-lissajous.go">
+    <entry file="file://$PROJECT_DIR$/test-010-fib/test-010-fib.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="557">
-          <caret line="63" column="9" lean-forward="true" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
+        <state relative-caret-position="210">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test-500-fetch/run_fetch.sh">
+    <entry file="file://$PROJECT_DIR$/test-011-spinner/spinner.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="39" lean-forward="false" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
+        <state relative-caret-position="525">
+          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-200-tcp-clock/client.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-200-tcp-clock/client.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-200-tcp-clock/test-200-tcp-clock.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-201-tcp-echo/test-201-tcp-echo.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-201-tcp-echo/client.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="24" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-201-tcp-echo/netcat3.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="1" lean-forward="true" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-012-pipeline/pipeline.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-012-pipeline/pipeline2.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-012-pipeline/pipeline3.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-400-lissajous/test-400-lissajous.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="557">
+          <caret line="58" column="9" lean-forward="true" selection-start-line="58" selection-start-column="9" selection-end-line="58" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test-500-fetch/test-500-fetch.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-500-fetch/test-500-fetchall.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+        <state relative-caret-position="450">
+          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -824,34 +807,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test-110-photoweb/photoweb.go">
+    <entry file="file://$PROJECT_DIR$/test-500-fetch/run_fetch.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="9" lean-forward="true" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+        <state relative-caret-position="30">
+          <caret line="2" column="39" lean-forward="false" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test-102-web-server/test-102-web-server.go">
+    <entry file="file://$PROJECT_DIR$/test-500-fetch/test-500-fetchall.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        <state relative-caret-position="471">
+          <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test-101-web-server/test-101-web-server.go">
+    <entry file="file://$PROJECT_DIR$/test-501-crawl/crawl1.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-100-web-servers/test-100-web-servers.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        <state relative-caret-position="600">
+          <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
           <folding />
         </state>
       </provider>
