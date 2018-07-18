@@ -2,7 +2,7 @@ package centergame
 
 import (
 	"sync"
-	"github.com/mingz2013/study.go/test-007-chess/ipc"
+	"github.com/mingz2013/study.go/test-800-chess/ipc"
 	"encoding/json"
 	"errors"
 )
