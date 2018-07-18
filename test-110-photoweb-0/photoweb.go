@@ -7,6 +7,7 @@ import (
 	"os"
 	"fmt"
 	//"path"
+	"io/ioutil"
 )
 
 const (
@@ -22,8 +23,8 @@ Choose an image to upload: <input name="image" type="file"/>
 <input type="submit" value="Upload"/>
 </form>`
 		w.Header().Set("Content-Type", "text/html; charset=utf-8")
-		//io.WriteString(w, s)
-		fmt.Fprintf(w, s)
+		io.WriteString(w, s)
+		//fmt.Fprintf(w, s)
 		//w.
 		//w.Write([]byte(s))
 		//template.New('webpage')
@@ -57,6 +58,14 @@ func typeof(v interface{}) string {
 	return fmt.Sprintf("%T", v)
 }
 
+func isExists(path string) bool {
+	_, err := os.Stat(path)
+	if err == nil {
+		return true
+	}
+	return os.IsExist(err)
+}
+
 func viewHandler(w http.ResponseWriter, r *http.Request) {
 	if r.Method == "GET" {
 		//log.Println(r.Form)
@@ -77,14 +86,35 @@ func viewHandler(w http.ResponseWriter, r *http.Request) {
 
 		imageId := r.FormValue("id")
 		imagePath := UPLOAD_DIR + "/" + imageId
+
+		if exits := isExists(imagePath); !exits {
+			http.NotFound(w, r)
+			return
+		}
+
 		w.Header().Set("Content-Type", "image")
 		http.ServeFile(w, r, imagePath)
 
-
-
-
 	}
 
+}
+
+func listHandler(w http.ResponseWriter, r *http.Request) {
+	fileInfoArr, err := ioutil.ReadDir(UPLOAD_DIR)
+	if err != nil {
+		http.Error(w, err.Error(), http.StatusInternalServerError)
+		return
+	}
+
+	var listHtml string
+
+	for _, fileInfo := range fileInfoArr {
+		imgId := fileInfo.Name()
+		listHtml += "<li><a href=\"/view?id=" + imgId + "\">" + imgId + "</a></li>"
+	}
+
+	w.Header().Set("Content-Type", "text/html; charset=utf-8")
+	io.WriteString(w, "<ol>"+listHtml+"</ol>")
 }
 
 //func staticHandler(w http.ResponseWriter, r *http.Request) {
@@ -98,6 +128,8 @@ func main() {
 	//fileServer = http.FileServer(http.Dir(path.Dir(os.Args[0])))
 	http.HandleFunc("/upload", uploadHandler)
 	http.HandleFunc("/view", viewHandler)
+	http.HandleFunc("/", listHandler)
+
 	//http.HandleFunc("/", staticHandler)
 	err := http.ListenAndServe(":8000", nil)
 	if err != nil {

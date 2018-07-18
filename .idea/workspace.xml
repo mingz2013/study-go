@@ -1,9 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2dbf4bab-1b57-4dd3-864f-53cc82650c05" name="Default" comment="">
+    <list default="true" id="2dbf4bab-1b57-4dd3-864f-53cc82650c05" name="Default" comment="demo, read book">
+      <change beforePath="" afterPath="$PROJECT_DIR$/test-110-photoweb-1/list.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/test-110-photoweb-1/photoweb.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/test-110-photoweb-1/upload.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/test-110-photoweb-1/uploads/0.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/test-110-photoweb-1/uploads/1010!.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/test-110-photoweb-1/uploads/2.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/test-110-photoweb-2/photoweb.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/test-110-photoweb-2/uploads/0.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/test-110-photoweb-2/uploads/1010!.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/test-110-photoweb-2/uploads/2.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/test-110-photoweb-2/views/list.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/test-110-photoweb-2/views/upload.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/test-110-photoweb-3/photoweb.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/test-110-photoweb-3/uploads/0.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/test-110-photoweb-3/uploads/1010!.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/test-110-photoweb-3/uploads/2.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/test-110-photoweb-3/views/list.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/test-110-photoweb-3/views/upload.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/test-110-photoweb-4/photoweb.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/test-110-photoweb-4/uploads/0.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/test-110-photoweb-4/uploads/1010!.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/test-110-photoweb-4/uploads/2.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/test-110-photoweb-4/views/list.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/test-110-photoweb-4/views/upload.html" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/test-110-photoweb/photoweb.go" afterPath="$PROJECT_DIR$/test-110-photoweb/photoweb.go" />
+      <change beforePath="$PROJECT_DIR$/test-110-photoweb/photoweb.go" afterPath="$PROJECT_DIR$/test-110-photoweb-0/photoweb.go" />
+      <change beforePath="$PROJECT_DIR$/test-110-photoweb/uploads/0.gif" afterPath="$PROJECT_DIR$/test-110-photoweb-0/uploads/0.gif" />
+      <change beforePath="$PROJECT_DIR$/test-110-photoweb/uploads/1010!.png" afterPath="$PROJECT_DIR$/test-110-photoweb-0/uploads/1010!.png" />
+      <change beforePath="$PROJECT_DIR$/test-110-photoweb/uploads/2.gif" afterPath="$PROJECT_DIR$/test-110-photoweb-0/uploads/2.gif" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,21 +41,95 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="game.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test-800-chess/game.go">
+      <file leaf-file-name="types.go" pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/Cellar/go/1.10.3/libexec/src/os/types.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="36" column="1" lean-forward="true" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+            <state relative-caret-position="235">
+              <caret line="21" column="4" lean-forward="false" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="photoweb.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test-110-photoweb-0/photoweb.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="32" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="photoweb.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test-110-photoweb-1/photoweb.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="116" column="9" lean-forward="true" selection-start-line="116" selection-start-column="9" selection-end-line="116" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="photoweb.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test-110-photoweb-2/photoweb.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!block;n#isExists#0" expanded="false" />
+                <element signature="n#!!block;n#viewHandler#0" expanded="false" />
+                <element signature="n#!!block;n#listHandler#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="list.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test-110-photoweb-3/views/list.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="photoweb.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test-110-photoweb-3/photoweb.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="526">
+              <caret line="230" column="0" lean-forward="true" selection-start-line="230" selection-start-column="0" selection-end-line="230" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="list.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test-110-photoweb-4/views/list.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="photoweb.go" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test-110-photoweb/photoweb.go">
+        <entry file="file://$PROJECT_DIR$/test-110-photoweb-4/photoweb.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+            <state relative-caret-position="612">
+              <caret line="243" column="0" lean-forward="true" selection-start-line="243" selection-start-column="0" selection-end-line="243" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="path.go" pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/Cellar/go/1.10.3/libexec/src/path/path.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="235">
+              <caret line="146" column="5" lean-forward="false" selection-start-line="146" selection-start-column="5" selection-end-line="146" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -40,6 +141,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Go File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -54,6 +156,7 @@
       <find>Register</find>
       <find>Room</find>
       <find>executet</find>
+      <find>listDir</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -64,18 +167,13 @@
       <dir>$PROJECT_DIR$/test-007-chess</dir>
     </dirStrings>
   </component>
-  <component name="GOROOT" path="/usr/local/Cellar/go/1.10/libexec" />
+  <component name="GOROOT" path="/usr/local/Cellar/go/1.10.3/libexec" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test-900-game-server/sdk/sdk.go" />
-        <option value="$PROJECT_DIR$/test-900-game-server/agent/agent.go" />
-        <option value="$PROJECT_DIR$/test-900-game-server/config/agent/0.json" />
-        <option value="$PROJECT_DIR$/test-900-game-server/agent/run.go" />
-        <option value="$PROJECT_DIR$/test-900-game-server/doc/game.md" />
         <option value="$PROJECT_DIR$/test-900-game-server/config/game/0.json" />
         <option value="$PROJECT_DIR$/test-900-game-server/game/game.go" />
         <option value="$PROJECT_DIR$/test-900-game-server/game/run.go" />
@@ -121,7 +219,12 @@
         <option value="$PROJECT_DIR$/test-800-chess/centergame/center.go" />
         <option value="$PROJECT_DIR$/test-800-chess/centergame/centerclient.go" />
         <option value="$PROJECT_DIR$/test-013-method/test-013-method.go" />
+        <option value="$PROJECT_DIR$/test-110-photoweb/upload.html" />
+        <option value="$PROJECT_DIR$/test-110-photoweb/list.html" />
         <option value="$PROJECT_DIR$/test-110-photoweb/photoweb.go" />
+        <option value="$PROJECT_DIR$/test-110-photoweb-2/photoweb.go" />
+        <option value="$PROJECT_DIR$/test-110-photoweb-3/photoweb.go" />
+        <option value="$PROJECT_DIR$/test-110-photoweb-4/photoweb.go" />
       </list>
     </option>
   </component>
@@ -162,17 +265,13 @@
             <path>
               <item name="study.go" type="b2602c69:ProjectViewProjectNode" />
               <item name="study.go" type="462c0819:PsiDirectoryNode" />
-              <item name="test-003-interface" type="462c0819:PsiDirectoryNode" />
+              <item name="test-110-photoweb-4" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="study.go" type="b2602c69:ProjectViewProjectNode" />
               <item name="study.go" type="462c0819:PsiDirectoryNode" />
-              <item name="test-008-struct-pointers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study.go" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study.go" type="462c0819:PsiDirectoryNode" />
-              <item name="test-110-photoweb" type="462c0819:PsiDirectoryNode" />
+              <item name="test-110-photoweb-4" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -187,20 +286,26 @@
     <property name="last_opened_file_path" value="$USER_HOME$" />
     <property name="GO_FMT" value="false" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test-110-photoweb-0" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/test-110-photoweb" />
+      <recent name="$PROJECT_DIR$/test-012-pipeline" />
+      <recent name="$PROJECT_DIR$/test-102-web-server" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/test-110-photoweb-3/views" />
       <recent name="$PROJECT_DIR$/test-900-game-server/database" />
       <recent name="$PROJECT_DIR$/test-900-game-server/config/database/redis" />
       <recent name="$PROJECT_DIR$/test-900-game-server" />
-      <recent name="$PROJECT_DIR$/log_analysis" />
-      <recent name="$PROJECT_DIR$/test-006-simple-media-player/play" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/test-012-pipeline" />
-      <recent name="$PROJECT_DIR$/test-102-web-server" />
-      <recent name="$PROJECT_DIR$/test-500-fetch" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -215,13 +320,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build test-007-dup.go">
+  <component name="RunManager" selected="Go Build.go build photoweb.go">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="study.go" />
       <working_directory value="$PROJECT_DIR$/" />
       <go_parameters value="-i" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/" />
+      <package value="github.com/mingz2013/study.go" />
+    </configuration>
+    <configuration name="go build photoweb.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+      <module name="study.go" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/test-110-photoweb/photoweb.go" />
       <package value="github.com/mingz2013/study.go" />
     </configuration>
     <configuration name="go build test-002-command-line.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
@@ -254,14 +367,6 @@
       <go_parameters value="-i" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/test-007-dup/test-007-dup.go" />
-      <package value="github.com/mingz2013/study.go" />
-    </configuration>
-    <configuration name="go build test-010-fib.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
-      <module name="study.go" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <go_parameters value="-i" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/test-010-fib/test-010-fib.go" />
       <package value="github.com/mingz2013/study.go" />
     </configuration>
     <configuration default="true" type="GoRunFileConfiguration" factoryName="Go Single File">
@@ -312,18 +417,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Go Build.go build test-002-command-line.go" />
-      <item index="1" class="java.lang.String" itemvalue="Go Build.go build test-010-fib.go" />
-      <item index="2" class="java.lang.String" itemvalue="Go Build.go build test-003-interface.go" />
-      <item index="3" class="java.lang.String" itemvalue="Go Build.go build test-004-array.go" />
-      <item index="4" class="java.lang.String" itemvalue="Go Build.go build test-007-dup.go" />
+      <item index="1" class="java.lang.String" itemvalue="Go Build.go build test-003-interface.go" />
+      <item index="2" class="java.lang.String" itemvalue="Go Build.go build test-004-array.go" />
+      <item index="3" class="java.lang.String" itemvalue="Go Build.go build test-007-dup.go" />
+      <item index="4" class="java.lang.String" itemvalue="Go Build.go build photoweb.go" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Go Build.go build test-007-dup.go" />
-        <item index="1" class="java.lang.String" itemvalue="Go Build.go build test-002-command-line.go" />
-        <item index="2" class="java.lang.String" itemvalue="Go Build.go build test-004-array.go" />
-        <item index="3" class="java.lang.String" itemvalue="Go Build.go build test-003-interface.go" />
-        <item index="4" class="java.lang.String" itemvalue="Go Build.go build test-010-fib.go" />
+        <item index="0" class="java.lang.String" itemvalue="Go Build.go build photoweb.go" />
+        <item index="1" class="java.lang.String" itemvalue="Go Build.go build test-007-dup.go" />
+        <item index="2" class="java.lang.String" itemvalue="Go Build.go build test-002-command-line.go" />
+        <item index="3" class="java.lang.String" itemvalue="Go Build.go build test-004-array.go" />
+        <item index="4" class="java.lang.String" itemvalue="Go Build.go build test-003-interface.go" />
       </list>
     </recent_temporary>
   </component>
@@ -377,7 +482,8 @@
     <MESSAGE value="示例" />
     <MESSAGE value="demo, read book, the go programming" />
     <MESSAGE value="demo, read book, the go programming language" />
-    <option name="LAST_COMMIT_MESSAGE" value="demo, read book, the go programming language" />
+    <MESSAGE value="demo, read book" />
+    <option name="LAST_COMMIT_MESSAGE" value="demo, read book" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -385,125 +491,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///usr/local/Cellar/go/1.10/libexec/src/html/template/escape.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="870" column="27" lean-forward="false" selection-start-line="870" selection-start-column="27" selection-end-line="870" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/Cellar/go/1.10/libexec/src/html/template/escape_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="43" column="23" lean-forward="false" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/Cellar/go/1.10/libexec/src/html/example_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/Cellar/go/1.10/libexec/src/html/escape_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2070">
-          <caret line="30" column="26" lean-forward="false" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/Cellar/go/1.10/libexec/src/html/escape.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2898">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/Cellar/go/1.10/libexec/src/html/entity_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/Cellar/go/1.10/libexec/src/html/entity.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-33780">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/Cellar/go/1.10/libexec/src/html/template/template.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4905">
-          <caret line="327" column="0" lean-forward="false" selection-start-line="327" selection-start-column="0" selection-end-line="327" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/Cellar/go/1.10/libexec/src/net/http/status.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="62" column="4" lean-forward="false" selection-start-line="62" selection-start-column="4" selection-end-line="62" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/Cellar/go/1.10/libexec/src/os/file.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="260" column="0" lean-forward="false" selection-start-line="260" selection-start-column="0" selection-end-line="260" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/Cellar/go/1.10/libexec/src/net/http/request.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-542">
-          <caret line="180" column="4" lean-forward="false" selection-start-line="180" selection-start-column="4" selection-end-line="180" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/Cellar/go/1.10/libexec/src/net/http/fs.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="705" column="19" lean-forward="false" selection-start-line="705" selection-start-column="19" selection-end-line="705" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-202-tcp-chat/test-202-tcp-chat-client.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="1" lean-forward="false" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-202-tcp-chat/test-202-tcp-chat-server.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-005-sorter/sorter.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-007-dup/test-007-dup.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1185">
-          <caret line="79" column="0" lean-forward="true" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-400-lissajous/run.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="38" lean-forward="true" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test-102-web-server/test-102-web-server.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -646,6 +633,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -737,18 +725,162 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test-800-chess/game.go">
+    <entry file="file:///usr/local/Cellar/go/1.10/libexec/src/net/http/request.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="1" lean-forward="true" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+        <state relative-caret-position="235">
+          <caret line="1267" column="18" lean-forward="false" selection-start-line="1267" selection-start-column="18" selection-end-line="1267" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test-110-photoweb/photoweb.go">
+    <entry file="file://$PROJECT_DIR$/test-800-chess/game.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        <state relative-caret-position="540">
+          <caret line="36" column="1" lean-forward="false" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-110-photoweb-0/upload.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="7" lean-forward="false" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-110-photoweb-0/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="7" lean-forward="false" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.10.3/libexec/src/os/types.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="21" column="4" lean-forward="false" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-110-photoweb-0/photoweb-5-5-3-3.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-110-photoweb-0/photoweb.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-110-photoweb-1/photoweb-5-5-3-2.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="74" column="30" lean-forward="true" selection-start-line="74" selection-start-column="30" selection-end-line="74" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-110-photoweb-0/photoweb.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-110-photoweb-2/photoweb.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!block;n#isExists#0" expanded="false" />
+            <element signature="n#!!block;n#viewHandler#0" expanded="false" />
+            <element signature="n#!!block;n#listHandler#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-110-photoweb-2/photoweb-5-5-3-2.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-110-photoweb-2/photoweb-5-5-3-3.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="16" lean-forward="true" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-110-photoweb-1/photoweb.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="116" column="9" lean-forward="true" selection-start-line="116" selection-start-column="9" selection-end-line="116" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.10.3/libexec/src/path/path.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="146" column="5" lean-forward="false" selection-start-line="146" selection-start-column="5" selection-end-line="146" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-110-photoweb-2/photoweb.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!block;n#isExists#0" expanded="false" />
+            <element signature="n#!!block;n#viewHandler#0" expanded="false" />
+            <element signature="n#!!block;n#listHandler#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-110-photoweb-3/views/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-110-photoweb-3/photoweb.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="526">
+          <caret line="230" column="0" lean-forward="true" selection-start-line="230" selection-start-column="0" selection-end-line="230" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-110-photoweb-4/views/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-110-photoweb-4/photoweb.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="243" column="0" lean-forward="true" selection-start-line="243" selection-start-column="0" selection-end-line="243" selection-end-column="0" />
           <folding />
         </state>
       </provider>
