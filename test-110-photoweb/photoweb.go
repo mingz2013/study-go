@@ -6,7 +6,7 @@ import (
 	"log"
 	"os"
 	"fmt"
-	"path"
+	//"path"
 )
 
 const (
@@ -59,37 +59,46 @@ func typeof(v interface{}) string {
 
 func viewHandler(w http.ResponseWriter, r *http.Request) {
 	if r.Method == "GET" {
-		log.Println(r.Form)
-		log.Println(r.URL.Query())
-		id := r.URL.Query().Get("id")
-		//log.Println(typeof(ids))
-		//if len(ids) == 0 {
-		//	http.Error(w, "error id", http.StatusInternalServerError)
-		//	return
-		//}
-		//log.Println(ids[0], typeof(ids[0]))
-		//filename := string(ids[0])
-		//log.Println(filename)
-		s := `<img src="uploads/` + id + `" />`
-		w.Header().Set("Content-Type", "text/html; charset=utf-8")
-		//io.WriteString(w, s)
-		fmt.Fprintf(w, s)
+		//log.Println(r.Form)
+		//log.Println(r.URL.Query())
+		//id := r.URL.Query().Get("id")
+		////log.Println(typeof(ids))
+		////if len(ids) == 0 {
+		////	http.Error(w, "error id", http.StatusInternalServerError)
+		////	return
+		////}
+		////log.Println(ids[0], typeof(ids[0]))
+		////filename := string(ids[0])
+		////log.Println(filename)
+		//s := `<img src="uploads/` + id + `" />`
+		//w.Header().Set("Content-Type", "text/html; charset=utf-8")
+		////io.WriteString(w, s)
+		//fmt.Fprintf(w, s)
+
+		imageId := r.FormValue("id")
+		imagePath := UPLOAD_DIR + "/" + imageId
+		w.Header().Set("Content-Type", "image")
+		http.ServeFile(w, r, imagePath)
+
+
+
+
 	}
 
 }
 
-func staticHandler(w http.ResponseWriter, r *http.Request) {
-	log.Println("in static handler...")
-	fileServer.ServeHTTP(w, r)
-}
+//func staticHandler(w http.ResponseWriter, r *http.Request) {
+//	log.Println("in static handler...")
+//	fileServer.ServeHTTP(w, r)
+//}
 
-var fileServer http.Handler
+//var fileServer http.Handler
 
 func main() {
-	fileServer = http.FileServer(http.Dir(path.Dir(os.Args[0])))
+	//fileServer = http.FileServer(http.Dir(path.Dir(os.Args[0])))
 	http.HandleFunc("/upload", uploadHandler)
 	http.HandleFunc("/view", viewHandler)
-	http.HandleFunc("/", staticHandler)
+	//http.HandleFunc("/", staticHandler)
 	err := http.ListenAndServe(":8000", nil)
 	if err != nil {
 		log.Fatal("ListenAndServe: ", err.Error())

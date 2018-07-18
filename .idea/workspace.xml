@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2dbf4bab-1b57-4dd3-864f-53cc82650c05" name="Default" comment="demo, read book, the go programming language">
-      <change beforePath="" afterPath="$PROJECT_DIR$/test-013-method/test-013-method.go" />
+    <list default="true" id="2dbf4bab-1b57-4dd3-864f-53cc82650c05" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/test-800-chess/centergame/center.go" afterPath="$PROJECT_DIR$/test-800-chess/centergame/center.go" />
-      <change beforePath="$PROJECT_DIR$/test-800-chess/centergame/centerclient.go" afterPath="$PROJECT_DIR$/test-800-chess/centergame/centerclient.go" />
-      <change beforePath="$PROJECT_DIR$/test-800-chess/game.go" afterPath="$PROJECT_DIR$/test-800-chess/game.go" />
+      <change beforePath="$PROJECT_DIR$/test-110-photoweb/photoweb.go" afterPath="$PROJECT_DIR$/test-110-photoweb/photoweb.go" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,7 +13,28 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="game.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test-800-chess/game.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="36" column="1" lean-forward="true" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="photoweb.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test-110-photoweb/photoweb.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -53,7 +71,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test-900-game-server/database/db.go" />
         <option value="$PROJECT_DIR$/test-900-game-server/sdk/sdk.go" />
         <option value="$PROJECT_DIR$/test-900-game-server/agent/agent.go" />
         <option value="$PROJECT_DIR$/test-900-game-server/config/agent/0.json" />
@@ -104,6 +121,7 @@
         <option value="$PROJECT_DIR$/test-800-chess/centergame/center.go" />
         <option value="$PROJECT_DIR$/test-800-chess/centergame/centerclient.go" />
         <option value="$PROJECT_DIR$/test-013-method/test-013-method.go" />
+        <option value="$PROJECT_DIR$/test-110-photoweb/photoweb.go" />
       </list>
     </option>
   </component>
@@ -150,6 +168,11 @@
               <item name="study.go" type="b2602c69:ProjectViewProjectNode" />
               <item name="study.go" type="462c0819:PsiDirectoryNode" />
               <item name="test-008-struct-pointers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study.go" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study.go" type="462c0819:PsiDirectoryNode" />
+              <item name="test-110-photoweb" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -502,13 +525,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test-110-photoweb/photoweb.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="9" lean-forward="true" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test-400-lissajous/out.gif">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -637,6 +653,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -644,6 +661,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="43" lean-forward="false" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -659,14 +677,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-800-chess/game.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="7" lean-forward="true" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
           <folding />
         </state>
       </provider>
@@ -723,6 +733,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-800-chess/game.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="1" lean-forward="true" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-110-photoweb/photoweb.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
           <folding />
         </state>
       </provider>
