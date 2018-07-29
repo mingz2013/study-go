@@ -52,6 +52,7 @@ func (t Table) Run() {
 }
 
 func (t Table) onMsg(m msg.Msg) {
+	log.Println("Table.onMsg", m, &t, &t.Players)
 	switch m.GetCmd() {
 	case "table":
 		t.onTableMsg(m)
@@ -73,7 +74,9 @@ func (t Table) onTableMsg(m msg.Msg) {
 }
 
 func (t Table) getBestSeatId() (int, bool) {
+	log.Println("getBestSeatId", "players", t.Players, &t.Players)
 	for i := 0; i < 4; i++ {
+		log.Println("check Id", t.Players[i].Id)
 		if t.Players[i].Id == 0 {
 			return i, true
 		}
@@ -96,11 +99,18 @@ func (t Table) onTableSit(m msg.Msg) {
 
 	p := t.Players[seatId]
 	p.Id = id
+	p.SeatId = seatId
 	p.Name = name
 
-	log.Println("sit ok", id, name, seatId)
+	t.Players[seatId] = p
+	log.Println("players", t.Players, "p", p)
+
+	log.Println("sit ok, ", "userId", id, "name", name, "seatId", seatId)
+
 
 	t.SendTableSitRes(id, map[string]interface{}{"retcode": 0, "msg": "sit ok"})
+
+	t.checkFull()
 }
 
 func (t Table) SendTableSitRes(id int, results map[string]interface{}) {
@@ -122,6 +132,8 @@ func (t Table) checkFull() {
 	_, ok := t.getBestSeatId()
 	if !ok {
 		t.onTableStart()
+	} else {
+		log.Println("not all full...")
 	}
 }
 

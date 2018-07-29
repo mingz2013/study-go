@@ -98,10 +98,10 @@ func (r Robot) onTableSitMsg(m msg.Msg) {
 	retCode := results["retcode"].(int)
 	msgRet := results["msg"].(string)
 	if retCode != 0 {
-		log.Println(msgRet)
+		log.Println(r, msgRet)
 		os.Exit(retCode)
 	}
-	log.Println(msgRet)
+	log.Println(r, msgRet)
 }
 
 func (r Robot) onPlayMsg(m msg.Msg) {
