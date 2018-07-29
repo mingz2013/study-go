@@ -16,6 +16,16 @@ type RoomManager struct {
 	MsgOut chan Msg
 }
 
+func (rm *RoomManager) Init() {
+
+}
+
+func NewRoomManager() RoomManager {
+	rm := RoomManager{}
+	rm.Init()
+	return rm
+}
+
 func (rm *RoomManager) CreateNewRoom(roomId int) RoomSession {
 	roomSession := RoomSession{}
 	roomSession.RoomId = roomId
@@ -36,3 +46,6 @@ func (rm *RoomManager) CreateNewRoom(roomId int) RoomSession {
 	return roomSession
 
 }
+
+
+
