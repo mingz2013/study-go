@@ -3,6 +3,7 @@ package table
 import (
 	"github.com/mingz2013/study.go/test-910-game-server/msg"
 	"log"
+	"time"
 )
 
 type Table struct {
@@ -32,12 +33,19 @@ func (t Table) Init() {
 func (t Table) Run() {
 
 	for {
-		m, ok := <-t.MsgIn
-		if !ok {
-			continue
-		}
+		select {
+		case m, ok := <-t.MsgIn:
+			{
+				if !ok {
+					continue
+				}
 
-		t.onMsg(m)
+				t.onMsg(m)
+			}
+		case <-time.After(1 * time.Second):
+			continue
+
+		}
 
 	}
 }

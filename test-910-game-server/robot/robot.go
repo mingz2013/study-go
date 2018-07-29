@@ -2,6 +2,7 @@ package robot
 
 import (
 	"github.com/mingz2013/study.go/test-910-game-server/msg"
+	"time"
 )
 
 type Robot struct {
@@ -30,12 +31,19 @@ func (r Robot) Run() {
 	r.doSit()
 
 	for {
-		m, ok := <-r.MsgIn
-		if !ok {
+
+		select {
+		case m, ok := <-r.MsgIn:
+			{
+				if !ok {
+					continue
+				}
+
+				r.onMsg(m)
+			}
+		case <-time.After(1 * time.Second):
 			continue
 		}
-
-		r.onMsg(m)
 
 	}
 }

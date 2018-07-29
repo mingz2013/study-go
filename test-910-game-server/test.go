@@ -6,6 +6,7 @@ import (
 	table2 "github.com/mingz2013/study.go/test-910-game-server/table"
 	"github.com/mingz2013/study.go/test-910-game-server/msg"
 	"log"
+	"time"
 )
 
 type Processor interface {
@@ -71,17 +72,27 @@ func main() {
 		defer wg.Done()
 
 		for {
-			m, ok := <-tableMsgOut
-			log.Println("on msg table", m)
-			if !ok {
-				continue
-			}
-			id := m["id"].(int)
 
-			for i := 0; i < len(robots); i++ {
-				if robots[i].Robot.Id == id {
-					robots[i].MsgIn <- m
+			select {
+			case m, ok := <-tableMsgOut:
+				{
+					//m, ok := <-tableMsgOut
+					log.Println("on msg table", m)
+					if !ok {
+						continue
+					}
+					id := m["id"].(int)
+
+					for i := 0; i < len(robots); i++ {
+						if robots[i].Robot.Id == id {
+							robots[i].MsgIn <- m
+						}
+					}
 				}
+
+			case <-time.After(1 * time.Second):
+				continue
+
 			}
 
 		}
@@ -93,12 +104,21 @@ func main() {
 		go func(index int) {
 			defer wg.Done()
 			for {
-				m, ok := <-robots[index].MsgOut
-				log.Println("on msg robot", index, m)
-				if !ok {
+
+				select {
+				case m, ok := <-robots[index].MsgOut:
+					{
+						log.Println("on msg robot", index, m)
+						if !ok {
+							continue
+						}
+						tableMsgIn <- m
+					}
+				case <-time.After(1 * time.Second):
 					continue
+
 				}
-				tableMsgIn <- m
+
 			}
 
 		}(i)
