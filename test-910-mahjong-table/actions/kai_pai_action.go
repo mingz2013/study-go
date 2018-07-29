@@ -8,7 +8,7 @@ func NewKaiPaiAction(tiles []int) KaiPaiAction {
 	return KaiPaiAction{tiles}
 }
 
-func (a KaiPaiAction) GetInfo() map[string]interface{} {
+func (a *KaiPaiAction) GetInfo() map[string]interface{} {
 	return map[string]interface{}{
 		"tiles": a.Tiles,
 	}

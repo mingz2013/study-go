@@ -16,7 +16,7 @@ type Robot struct {
 	MsgOut chan<- msg.Msg
 }
 
-func (r Robot) Init() {
+func (r *Robot) Init() {
 	r.Cards = player.NewCards()
 }
 
@@ -26,22 +26,22 @@ func NewRobot(id int, name string, msgIn <-chan msg.Msg, msgOut chan<- msg.Msg) 
 	return r
 }
 
-func (r Robot) doSit() {
+func (r *Robot) doSit() {
 
 	r.SendTableSitReq(map[string]interface{}{"id": r.Id, "name": r.Name})
 
 }
 
-func (r Robot) SendTableSitReq(params map[string]interface{}) {
+func (r *Robot) SendTableSitReq(params map[string]interface{}) {
 	r.SendTableReq("sit", params)
 }
 
-func (r Robot) SendTableReq(action string, params map[string]interface{}) {
+func (r *Robot) SendTableReq(action string, params map[string]interface{}) {
 	params["action"] = action
 	r.SendReq("table", params)
 }
 
-func (r Robot) SendReq(cmd string, params map[string]interface{}) {
+func (r *Robot) SendReq(cmd string, params map[string]interface{}) {
 	r.MsgOut <- msg.Msg{"cmd": cmd, "params": params}
 }
 
@@ -67,7 +67,7 @@ func (r Robot) Run() {
 	}
 }
 
-func (r Robot) onMsg(m msg.Msg) {
+func (r *Robot) onMsg(m msg.Msg) {
 	switch m.GetCmd() {
 	case "table":
 		r.onTableMsg(m)
@@ -79,7 +79,7 @@ func (r Robot) onMsg(m msg.Msg) {
 	}
 }
 
-func (r Robot) onTableMsg(m msg.Msg) {
+func (r *Robot) onTableMsg(m msg.Msg) {
 
 	results := m.GetResults()
 	action := results["action"].(string)
@@ -93,7 +93,7 @@ func (r Robot) onTableMsg(m msg.Msg) {
 
 }
 
-func (r Robot) onTableSitMsg(m msg.Msg) {
+func (r *Robot) onTableSitMsg(m msg.Msg) {
 	results := m.GetResults()
 	retCode := results["retcode"].(int)
 	msgRet := results["msg"].(string)
@@ -104,7 +104,7 @@ func (r Robot) onTableSitMsg(m msg.Msg) {
 	log.Println(r, msgRet)
 }
 
-func (r Robot) onPlayMsg(m msg.Msg) {
+func (r *Robot) onPlayMsg(m msg.Msg) {
 	results := m.GetResults()
 	action := results["action"].(string)
 

@@ -9,7 +9,7 @@ type Bottom struct {
 	tilePool []int
 }
 
-func (b Bottom) initTilePool() {
+func (b *Bottom) initTilePool() {
 	var single []int
 	for i := 1; i < 10; i++ {
 		single = append(single, i)
@@ -40,7 +40,7 @@ func (b Bottom) initTilePool() {
 
 }
 
-func (b Bottom) PopKaiPai() []int {
+func (b *Bottom) PopKaiPai() []int {
 	tiles := b.tilePool[:13]
 	b.tilePool = b.tilePool[13:]
 	return tiles

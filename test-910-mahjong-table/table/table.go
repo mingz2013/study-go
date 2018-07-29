@@ -23,11 +23,11 @@ func NewTable(id string, msgIn <-chan msg.Msg, msgOut chan<- msg.Msg) Table {
 	return t
 }
 
-func (t Table) Init() {
+func (t *Table) Init() {
 	for i := 0; i < 4; i++ {
 		t.Players[i] = player.NewPlayer(i)
 	}
-	t.Play = NewPlay(&t)
+	t.Play = NewPlay(t)
 
 }
 
@@ -51,7 +51,7 @@ func (t Table) Run() {
 	}
 }
 
-func (t Table) onMsg(m msg.Msg) {
+func (t *Table) onMsg(m msg.Msg) {
 	log.Println("Table.onMsg", m, &t, &t.Players)
 	switch m.GetCmd() {
 	case "table":
@@ -63,7 +63,7 @@ func (t Table) onMsg(m msg.Msg) {
 	}
 }
 
-func (t Table) onTableMsg(m msg.Msg) {
+func (t *Table) onTableMsg(m msg.Msg) {
 	params := m.GetParams()
 	action := params["action"].(string)
 	switch action {
@@ -73,7 +73,7 @@ func (t Table) onTableMsg(m msg.Msg) {
 
 }
 
-func (t Table) getBestSeatId() (int, bool) {
+func (t *Table) getBestSeatId() (int, bool) {
 	log.Println("getBestSeatId", "players", t.Players, &t.Players)
 	for i := 0; i < 4; i++ {
 		log.Println("check Id", t.Players[i].Id)
@@ -84,7 +84,7 @@ func (t Table) getBestSeatId() (int, bool) {
 	return -1, false
 }
 
-func (t Table) onTableSit(m msg.Msg) {
+func (t *Table) onTableSit(m msg.Msg) {
 	params := m.GetParams()
 	id := params["id"].(int)
 	name := params["name"].(string)
@@ -113,22 +113,22 @@ func (t Table) onTableSit(m msg.Msg) {
 	t.checkFull()
 }
 
-func (t Table) SendTableSitRes(id int, results map[string]interface{}) {
+func (t *Table) SendTableSitRes(id int, results map[string]interface{}) {
 	t.SendTableRes(id, "sit", results)
 }
 
-func (t Table) SendTableRes(id int, action string, results map[string]interface{}) {
+func (t *Table) SendTableRes(id int, action string, results map[string]interface{}) {
 	//t.MsgOut <- msg.Msg{"id": id, "cmd": "table", "results": results}
 
 	results["action"] = action
 	t.SendRes(id, "table", results)
 }
 
-func (t Table) SendRes(id int, cmd string, results map[string]interface{}) {
+func (t *Table) SendRes(id int, cmd string, results map[string]interface{}) {
 	t.MsgOut <- msg.Msg{"id": id, "cmd": cmd, "results": results}
 }
 
-func (t Table) checkFull() {
+func (t *Table) checkFull() {
 	_, ok := t.getBestSeatId()
 	if !ok {
 		t.onTableStart()
@@ -137,6 +137,6 @@ func (t Table) checkFull() {
 	}
 }
 
-func (t Table) onTableStart() {
+func (t *Table) onTableStart() {
 	t.Play.Run()
 }

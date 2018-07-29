@@ -17,7 +17,7 @@ func NewTableManager(id string) (Manager) {
 	return Manager{Id: id, tableMap: make(map[string]Table)}
 }
 
-func (mgr Manager) Run() {
+func (mgr *Manager) Run() {
 
 	for {
 		m, ok := <-mgr.MsgIn
@@ -29,7 +29,7 @@ func (mgr Manager) Run() {
 
 }
 
-func (mgr Manager) onMsg(m msg.Msg) {
+func (mgr *Manager) onMsg(m msg.Msg) {
 
 	userId := m["userId"].(int)
 
@@ -47,10 +47,10 @@ func (mgr Manager) onMsg(m msg.Msg) {
 
 }
 
-func (mgr Manager) onCmdCreate(m msg.Msg, userId int) {
+func (mgr *Manager) onCmdCreate(m msg.Msg, userId int) {
 
 }
 
-func (mgr Manager) onCmdJoin(m msg.Msg, userId int) {
+func (mgr *Manager) onCmdJoin(m msg.Msg, userId int) {
 
 }

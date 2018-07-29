@@ -14,6 +14,6 @@ func NewSdk(id string) (sdk Sdk) {
 	return Sdk{id, make(map[string]User)}
 }
 
-func (s Sdk) Run() {
+func (s *Sdk) Run() {
 
 }

@@ -12,7 +12,7 @@ type Play struct {
 	Bottom
 }
 
-func (p Play) Init() {
+func (p *Play) Init() {
 	p.initTilePool()
 }
 
@@ -22,21 +22,21 @@ func NewPlay(t *Table) Play {
 	return p
 }
 
-func (p Play) OnMsg(m msg.Msg) {
+func (p *Play) OnMsg(m msg.Msg) {
 
 }
 
-func (p Play) Run() {
+func (p *Play) Run() {
 	log.Println("play run...")
 	p.start()
 }
 
-func (p Play) start() {
+func (p *Play) start() {
 	p.kaiPai()
 	p.nextOp(0)
 }
 
-func (p Play) kaiPai() {
+func (p *Play) kaiPai() {
 
 	for i := 0; i < 4; i++ {
 		tiles := p.PopKaiPai()
@@ -48,15 +48,15 @@ func (p Play) kaiPai() {
 
 }
 
-func (p Play) SendPlayKaiPaiRes(player player.Player, action actions.KaiPaiAction) {
+func (p *Play) SendPlayKaiPaiRes(player player.Player, action actions.KaiPaiAction) {
 	p.SendPlayRes(player, "kai_pai", action.GetInfo())
 }
 
-func (p Play) SendPlayRes(player player.Player, action string, results map[string]interface{}) {
+func (p *Play) SendPlayRes(player player.Player, action string, results map[string]interface{}) {
 	results["action"] = action
 	p.table.SendRes(player.Id, "play", results)
 }
 
-func (p Play) nextOp(seatId int) {
+func (p *Play) nextOp(seatId int) {
 
 }

@@ -29,7 +29,7 @@ type Cards struct {
 	nowTile  int
 }
 
-func (c Cards) Init() {
+func (c *Cards) Init() {
 	c.handPile = HandPile{}
 	c.dropPile = DropPile{}
 }
@@ -38,7 +38,7 @@ func NewCards() Cards {
 	return Cards{}
 }
 
-func (c Cards) DoKaiPaiAction(action actions.KaiPaiAction) {
+func (c *Cards) DoKaiPaiAction(action actions.KaiPaiAction) {
 	copy(c.handPile.tiles, action.Tiles)
 }
 
