@@ -6,7 +6,7 @@ type Player struct {
 
 	SeatId int
 
-	Cards Cards
+	Cards
 }
 
 func (p Player) Init() {

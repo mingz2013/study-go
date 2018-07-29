@@ -27,7 +27,7 @@ func (t Table) Init() {
 	for i := 0; i < 4; i++ {
 		t.Players[i] = player.NewPlayer(i)
 	}
-	t.Play = NewPlay(t)
+	t.Play = NewPlay(&t)
 
 }
 
@@ -53,13 +53,23 @@ func (t Table) Run() {
 
 func (t Table) onMsg(m msg.Msg) {
 	switch m.GetCmd() {
-	case "sit":
-		t.onCmdSit(m)
+	case "table":
+		t.onTableMsg(m)
 	case "play":
 		t.Play.OnMsg(m)
 	default:
 		log.Println("unknown cmd", m)
 	}
+}
+
+func (t Table) onTableMsg(m msg.Msg) {
+	params := m.GetParams()
+	action := params["action"].(string)
+	switch action {
+	case "sit":
+		t.onTableSit(m)
+	}
+
 }
 
 func (t Table) getBestSeatId() (int, bool) {
@@ -71,7 +81,7 @@ func (t Table) getBestSeatId() (int, bool) {
 	return -1, false
 }
 
-func (t Table) onCmdSit(m msg.Msg) {
+func (t Table) onTableSit(m msg.Msg) {
 	params := m.GetParams()
 	id := params["id"].(int)
 	name := params["name"].(string)
@@ -80,7 +90,7 @@ func (t Table) onCmdSit(m msg.Msg) {
 
 	if !ok {
 		log.Println("not found empty seat", id, name)
-		t.SendSitRes(id, map[string]interface{}{"retcode": -1, "msg": "not found empty seat"})
+		t.SendTableSitRes(id, map[string]interface{}{"retcode": -1, "msg": "not found empty seat"})
 		return
 	}
 
@@ -90,11 +100,18 @@ func (t Table) onCmdSit(m msg.Msg) {
 
 	log.Println("sit ok", id, name, seatId)
 
-	t.SendSitRes(id, map[string]interface{}{"retcode": 0, "msg": "sit ok"})
+	t.SendTableSitRes(id, map[string]interface{}{"retcode": 0, "msg": "sit ok"})
 }
 
-func (t Table) SendSitRes(id int, results map[string]interface{}) {
-	t.SendRes(id, "sit", results)
+func (t Table) SendTableSitRes(id int, results map[string]interface{}) {
+	t.SendTableRes(id, "sit", results)
+}
+
+func (t Table) SendTableRes(id int, action string, results map[string]interface{}) {
+	//t.MsgOut <- msg.Msg{"id": id, "cmd": "table", "results": results}
+
+	results["action"] = action
+	t.SendRes(id, "table", results)
 }
 
 func (t Table) SendRes(id int, cmd string, results map[string]interface{}) {

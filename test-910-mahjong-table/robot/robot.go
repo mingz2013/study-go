@@ -3,29 +3,46 @@ package robot
 import (
 	"github.com/mingz2013/study.go/test-910-mahjong-table/msg"
 	"time"
-	"os"
 	"log"
+	"os"
+	"github.com/mingz2013/study.go/test-910-mahjong-table/player"
 )
 
 type Robot struct {
 	Id     int
 	Name   string
+	Cards  player.Cards
 	MsgIn  <-chan msg.Msg
 	MsgOut chan<- msg.Msg
 }
 
+func (r Robot) Init() {
+	r.Cards = player.NewCards()
+}
+
 func NewRobot(id int, name string, msgIn <-chan msg.Msg, msgOut chan<- msg.Msg) Robot {
-	return Robot{Id: id, Name: name, MsgIn: msgIn, MsgOut: msgOut}
+	r := Robot{Id: id, Name: name, MsgIn: msgIn, MsgOut: msgOut}
+	r.Init()
+	return r
 }
 
 func (r Robot) doSit() {
 
-	//m := msg.Msg{"cmd":"sit", "params":map[string]interface{}{"id": r.Id, "name": r.Name}}
-	m := msg.NewMsg()
-	m.SetCmd("sit")
-	m.SetParams(map[string]interface{}{"id": r.Id, "name": r.Name})
-	r.MsgOut <- m
+	r.SendTableSitReq(map[string]interface{}{"id": r.Id, "name": r.Name})
 
+}
+
+func (r Robot) SendTableSitReq(params map[string]interface{}) {
+	r.SendTableReq("sit", params)
+}
+
+func (r Robot) SendTableReq(action string, params map[string]interface{}) {
+	params["action"] = action
+	r.SendReq("table", params)
+}
+
+func (r Robot) SendReq(cmd string, params map[string]interface{}) {
+	r.MsgOut <- msg.Msg{"cmd": cmd, "params": params}
 }
 
 func (r Robot) Run() {
@@ -52,21 +69,50 @@ func (r Robot) Run() {
 
 func (r Robot) onMsg(m msg.Msg) {
 	switch m.GetCmd() {
-	case "sit":
-		{
-			params := m.GetResults()
-			retCode := params["retcode"].(int)
-			msgRet := params["msg"].(string)
-			if retCode != 0 {
-				log.Println(msgRet)
-				os.Exit(retCode)
-			}
-			log.Println(msgRet)
-
-		}
-
+	case "table":
+		r.onTableMsg(m)
+	case "play":
+		r.onPlayMsg(m)
 	default:
 		log.Println("unknown msg", m)
 
 	}
+}
+
+func (r Robot) onTableMsg(m msg.Msg) {
+
+	results := m.GetResults()
+	action := results["action"].(string)
+
+	switch action {
+	case "sit":
+		r.onTableSitMsg(m)
+	default:
+		log.Println(m)
+	}
+
+}
+
+func (r Robot) onTableSitMsg(m msg.Msg) {
+	results := m.GetResults()
+	retCode := results["retcode"].(int)
+	msgRet := results["msg"].(string)
+	if retCode != 0 {
+		log.Println(msgRet)
+		os.Exit(retCode)
+	}
+	log.Println(msgRet)
+}
+
+func (r Robot) onPlayMsg(m msg.Msg) {
+	results := m.GetResults()
+	action := results["action"].(string)
+
+	switch action {
+	case "kai_pai":
+		break
+	default:
+		log.Println(m)
+	}
+
 }

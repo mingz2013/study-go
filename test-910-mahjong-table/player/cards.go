@@ -1,5 +1,7 @@
 package player
 
+import "github.com/mingz2013/study.go/test-910-mahjong-table/actions"
+
 type HandPile struct {
 	tiles []int
 }
@@ -36,7 +38,7 @@ func NewCards() Cards {
 	return Cards{}
 }
 
-func (c Cards) DoKaiPai(tiles []int) {
-	copy(c.handPile.tiles, tiles)
+func (c Cards) DoKaiPaiAction(action actions.KaiPaiAction) {
+	copy(c.handPile.tiles, action.Tiles)
 }
 
