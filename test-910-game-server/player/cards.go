@@ -35,3 +35,8 @@ func (c Cards) Init() {
 func NewCards() Cards {
 	return Cards{}
 }
+
+func (c Cards) DoKaiPai(tiles []int) {
+	copy(c.handPile.tiles, tiles)
+}
+

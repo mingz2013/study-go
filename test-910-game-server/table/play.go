@@ -8,6 +8,7 @@ import (
 )
 
 type Play struct {
+	table    Table
 	tilePool []int
 }
 
@@ -46,9 +47,8 @@ func (p Play) Init() {
 	p.initTilePool()
 }
 
-
-func NewPlay() Play {
-	p := Play{}
+func NewPlay(t Table) Play {
+	p := Play{table: t}
 	p.Init()
 	return p
 }
@@ -69,7 +69,26 @@ func (p Play) start() {
 
 func (p Play) kaiPai() {
 
+	for i := 0; i < 4; i++ {
+		kaiPai := p.tilePool[:13]
+		p.tilePool = p.tilePool[13:]
+
+		p.table.Players[i].Cards.DoKaiPai(kaiPai)
+
+	}
+
+	p.SendKaiPaiRes()
+
 }
+
+func (p Play) SendKaiPaiRes() {
+	for i := 0; i < 4; i++ {
+
+		//player := p.table.Players[i]
+
+	}
+}
+
 
 func (p Play) nextOp(seatId int) {
 
