@@ -4,6 +4,7 @@ import (
 	"github.com/mingz2013/study.go/test-910-game-server/msg"
 	"log"
 	"time"
+	"github.com/mingz2013/study.go/test-910-game-server/player"
 )
 
 type Table struct {
@@ -13,7 +14,7 @@ type Table struct {
 	MsgOut chan<- msg.Msg
 
 	Play    Play
-	Players [4]Player
+	Players [4]player.Player
 }
 
 func NewTable(id string, msgIn <-chan msg.Msg, msgOut chan<- msg.Msg) Table {
@@ -24,7 +25,7 @@ func NewTable(id string, msgIn <-chan msg.Msg, msgOut chan<- msg.Msg) Table {
 
 func (t Table) Init() {
 	for i := 0; i < 4; i++ {
-		t.Players[i] = NewPlayer(i)
+		t.Players[i] = player.NewPlayer(i)
 	}
 	t.Play = NewPlay()
 
@@ -79,17 +80,17 @@ func (t Table) onCmdSit(m msg.Msg) {
 
 	if !ok {
 		log.Println("not found empty seat", id, name)
-		t.MsgOut <- msg.Msg{"id": id, "cmd": "sit", "results": map[string]interface{}{"retcode": "-1", "msg": "not found empty seat"}}
+		t.MsgOut <- msg.Msg{"id": id, "cmd": "sit", "results": map[string]interface{}{"retcode": -1, "msg": "not found empty seat"}}
 		return
 	}
 
 	p := t.Players[seatId]
 	p.Id = id
-	p.name = name
+	p.Name = name
 
 	log.Println("sit ok", id, name, seatId)
 
-	t.MsgOut <- msg.Msg{"id": id, "cmd": "sit", "results": map[string]interface{}{"retcode": "0", "msg": "sit ok"}}
+	t.MsgOut <- msg.Msg{"id": id, "cmd": "sit", "results": map[string]interface{}{"retcode": 0, "msg": "sit ok"}}
 }
 
 func (t Table) checkFull() {

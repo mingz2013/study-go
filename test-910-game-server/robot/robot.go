@@ -3,6 +3,8 @@ package robot
 import (
 	"github.com/mingz2013/study.go/test-910-game-server/msg"
 	"time"
+	"os"
+	"log"
 )
 
 type Robot struct {
@@ -49,5 +51,22 @@ func (r Robot) Run() {
 }
 
 func (r Robot) onMsg(m msg.Msg) {
+	switch m.GetCmd() {
+	case "sit":
+		{
+			params := m.GetResults()
+			retCode := params["retcode"].(int)
+			msgRet := params["msg"].(string)
+			if retCode != 0 {
+				log.Println(msgRet)
+				os.Exit(retCode)
+			}
+			log.Println(msgRet)
 
+		}
+
+	default:
+		log.Println("unknown msg", m)
+
+	}
 }

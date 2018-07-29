@@ -10,7 +10,7 @@ type Sdk struct {
 	UserMap map[string]User
 }
 
-func MakerSdk(id string) (sdk Sdk) {
+func NewSdk(id string) (sdk Sdk) {
 	return Sdk{id, make(map[string]User)}
 }
 
