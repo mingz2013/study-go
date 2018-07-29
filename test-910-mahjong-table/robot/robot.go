@@ -1,7 +1,7 @@
 package robot
 
 import (
-	"github.com/mingz2013/study.go/test-910-game-server/msg"
+	"github.com/mingz2013/study.go/test-910-mahjong-table/msg"
 	"time"
 	"os"
 	"log"

@@ -2,9 +2,9 @@ package main
 
 import (
 	"sync"
-	robot2 "github.com/mingz2013/study.go/test-910-game-server/robot"
-	table2 "github.com/mingz2013/study.go/test-910-game-server/table"
-	"github.com/mingz2013/study.go/test-910-game-server/msg"
+	robot2 "github.com/mingz2013/study.go/test-910-mahjong-table/robot"
+	table2 "github.com/mingz2013/study.go/test-910-mahjong-table/table"
+	"github.com/mingz2013/study.go/test-910-mahjong-table/msg"
 	"log"
 	"time"
 )
