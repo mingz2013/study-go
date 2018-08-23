@@ -23,4 +23,15 @@ func main() {
 	}
 
 	fmt.Println(serverJson)
+
+	var v map[string]interface{}
+
+	err = json.Unmarshal(s, &v)
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	log.Println(v)
+
+
 }
