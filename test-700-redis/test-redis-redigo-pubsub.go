@@ -75,6 +75,7 @@ func Subscribe() {
 }
 
 func Pubscribe(s string) {
+	defer wg.Done()
 	log.Println("pub msg", s)
 	redisChannel := "redChatRoom"
 	c := RedisPool.Get()
@@ -93,7 +94,8 @@ func TestRedisPubSub() {
 	wg.Add(1)
 	Subscribe()
 
-	Pubscribe("hehe")
+	wg.Add(1)
+	go Pubscribe("hehe")
 
 	wg.Wait()
 
