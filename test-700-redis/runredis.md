@@ -22,7 +22,7 @@
 `docker ps | grep redis`
 
 # 连接，查看容器
-使用redis镜像执行redis-cli 命令连接到刚启动的容器，主机ip为172.0.0.1
+使用redis镜像执行redis-cli 命令连接到刚启动的容器，主机ip为127.0.0.1
 
 `docker exec -it 43f7a65ec7f8 redis-cli`
 

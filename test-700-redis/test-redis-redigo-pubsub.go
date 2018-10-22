@@ -48,23 +48,25 @@ func Subscribe() {
 	c := RedisPool.Get()
 	psc := redis.PubSubConn{c}
 	psc.Subscribe(redisChannel)
-
+	wg.Add(1)
 	go func() {
-		defer func() {
-			c.Close()
-			psc.Unsubscribe(redisChannel)
-		}()
 		defer wg.Done()
+		defer func() {
+
+			psc.Unsubscribe(redisChannel)
+			psc.Close()
+		}()
+
 
 		for {
 			switch v := psc.Receive().(type) {
 			case redis.Message:
-				log.Println("messages<", v.Channel, ">:", v.Data)
+				log.Println("messages<"+v.Channel+">:", string(v.Data))
 			case redis.Subscription:
 				log.Println(v.Channel, v.Kind, v.Count)
 				continue
 			case error:
-				log.Println(v)
+				log.Println("error", v)
 				return
 
 			}
@@ -75,12 +77,15 @@ func Subscribe() {
 }
 
 func Pubscribe(s string) {
-	defer wg.Done()
+	//defer wg.Done()
 	log.Println("pub msg", s)
 	redisChannel := "redChatRoom"
 	c := RedisPool.Get()
 
-	defer c.Close()
+	defer func() {
+		log.Println("close...")
+		c.Close()
+	}()
 
 	_, err := c.Do("PUBLISH", redisChannel, s)
 	if err != nil {
@@ -88,15 +93,21 @@ func Pubscribe(s string) {
 		return
 	}
 
+	log.Println("pub over...")
+
 }
 
 func TestRedisPubSub() {
-	wg.Add(1)
+
 	Subscribe()
 
-	wg.Add(1)
-	go Pubscribe("hehe")
+	//wg.Add(1)
+	Pubscribe("hehe")
+	Pubscribe("haha")
 
 	wg.Wait()
+
+	ch := make(chan int)
+	<-ch
 
 }
