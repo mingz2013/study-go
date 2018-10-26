@@ -6,7 +6,6 @@ import (
 	"log"
 	"os"
 	"fmt"
-	//"path"
 	"io/ioutil"
 	"html/template"
 	"path"
