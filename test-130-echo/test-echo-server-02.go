@@ -96,7 +96,7 @@ func main() {
 	e.POST("/save", save)
 	e.POST("/saveFile", saveFile)
 
-	e.Static("/static", "static")
+	e.Static("/static", "./static")
 
 	e.Logger.Fatal(e.Start(":8001"))
 }
