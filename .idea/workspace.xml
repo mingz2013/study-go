@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2dbf4bab-1b57-4dd3-864f-53cc82650c05" name="Default" comment="hello">
+    <list default="true" id="2dbf4bab-1b57-4dd3-864f-53cc82650c05" name="Default" comment="test redis">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-700-redis/runredis.md" beforeDir="false" afterPath="$PROJECT_DIR$/test-700-redis/runredis.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-700-redis/test-redis-redigo-pubsub.go" beforeDir="false" afterPath="$PROJECT_DIR$/test-700-redis/test-redis-redigo-pubsub.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,21 +28,22 @@
     <session id="323687908">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="17" />
-          <entry key="project.open.time.0" value="8" />
+          <entry key="project.closed" value="19" />
+          <entry key="project.open.time.0" value="9" />
           <entry key="project.open.time.1" value="4" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="18" />
+          <entry key="project.opened" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="go" value="264" />
+          <entry key="go" value="269" />
           <entry key="hello" value="1" />
+          <entry key="html" value="1" />
           <entry key="md" value="4" />
           <entry key="s" value="9" />
           <entry key="sh" value="1" />
@@ -53,7 +52,8 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Go" value="264" />
+          <entry key="Go" value="269" />
+          <entry key="HTML" value="1" />
           <entry key="Markdown" value="4" />
           <entry key="PLAIN_TEXT" value="11" />
           <entry key="x86 Plan9 Assembly" value="9" />
@@ -61,16 +61,18 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="go" value="12524" />
+          <entry key="go" value="13804" />
+          <entry key="html" value="25" />
           <entry key="md" value="625" />
-          <entry key="txt" value="103" />
+          <entry key="txt" value="145" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Go" value="12524" />
+          <entry key="Go" value="13804" />
+          <entry key="HTML" value="25" />
           <entry key="Markdown" value="625" />
-          <entry key="PLAIN_TEXT" value="103" />
+          <entry key="PLAIN_TEXT" value="145" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.go.postfix.template.usages.trigger">
@@ -88,94 +90,7 @@
     <favorites_list name="study.go" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test-700-redis/test-redis-redigo_test.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test-700-redis/test-redis-redigo-pubsub_test.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test-700-redis/test-redis-redigo.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="70" selection-start-line="70" selection-end-line="70" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test-700-redis/test-redis-redigo-pubsub.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="481">
-              <caret line="94" lean-forward="true" selection-start-line="94" selection-end-line="94" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test-700-redis/runredis.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="435">
-                <caret line="29" selection-start-line="29" selection-end-line="29" />
-              </first_editor>
-              <second_editor>
-                <markdownNavigatorState />
-              </second_editor>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file:///usr/local/Cellar/go/1.11.1/libexec/src/encoding/json/encode.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2340">
-              <caret line="156" column="5" selection-start-line="156" selection-start-column="5" selection-end-line="156" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../gomodule/redigo/redis/reply.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2220">
-              <caret line="148" column="5" selection-start-line="148" selection-start-column="5" selection-end-line="148" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../gomodule/redigo/redis/redis.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../gomodule/redigo/redis/conn.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2535">
-              <caret line="169" column="5" selection-start-line="169" selection-start-column="5" selection-end-line="169" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -226,11 +141,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test-910-game-server/table/session.go" />
-        <option value="$PROJECT_DIR$/test-910-game-server/table/manager.go" />
-        <option value="$PROJECT_DIR$/test-910-game-server/msg/msg.go" />
-        <option value="$PROJECT_DIR$/test-910-game-server/test.go" />
-        <option value="$PROJECT_DIR$/test-910-game-server/table/player.go" />
         <option value="$PROJECT_DIR$/test-910-game-server/table/cards.go" />
         <option value="$PROJECT_DIR$/test-910-game-server/robot/robot.go" />
         <option value="$PROJECT_DIR$/test-910-game-server/sdk/sdk.go" />
@@ -277,6 +187,11 @@
         <option value="$PROJECT_DIR$/test-700-redis/test-redis-redigo-pubsub_test.go" />
         <option value="$PROJECT_DIR$/test-700-redis/runredis.md" />
         <option value="$PROJECT_DIR$/test-700-redis/test-redis-redigo-pubsub.go" />
+        <option value="$PROJECT_DIR$/test-130-echo/test-echo-server-01.go" />
+        <option value="$PROJECT_DIR$/test-130-echo/static/index.html" />
+        <option value="$PROJECT_DIR$/test-130-echo/test-echo-server-02.go" />
+        <option value="$PROJECT_DIR$/test-110-photoweb-4/photoweb.go" />
+        <option value="$PROJECT_DIR$/test-120-beego/test-01.go" />
       </list>
     </option>
   </component>
@@ -286,17 +201,16 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="683" />
-    <option name="y" value="-1057" />
-    <option name="width" value="1920" />
-    <option name="height" value="1057" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -307,13 +221,12 @@
             <path>
               <item name="study.go" type="b2602c69:ProjectViewProjectNode" />
               <item name="study.go" type="462c0819:PsiDirectoryNode" />
-              <item name="test-700-redis" type="462c0819:PsiDirectoryNode" />
+              <item name="test-120-beego" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -329,19 +242,19 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test-130-echo" />
+      <recent name="$PROJECT_DIR$/test-110-photoweb-0" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/test-110-photoweb" />
+      <recent name="$PROJECT_DIR$/test-012-pipeline" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/test-910-mahjong-table/table" />
       <recent name="$PROJECT_DIR$/test-910-mahjong-table/play" />
       <recent name="$PROJECT_DIR$/test-910-mahjong-table/player" />
       <recent name="$PROJECT_DIR$/test-910-game-server/player" />
       <recent name="$PROJECT_DIR$/test-910-game-server/robot" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/test-110-photoweb-0" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/test-110-photoweb" />
-      <recent name="$PROJECT_DIR$/test-012-pipeline" />
-      <recent name="$PROJECT_DIR$/test-102-web-server" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -356,7 +269,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.test-redis-redigo-pubsub_test.go">
+  <component name="RunManager" selected="Go Build.go build test-01.go">
     <configuration default="true" type="GoRunFileConfiguration" factoryName="Go Single File">
       <module name="study.go" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -372,12 +285,30 @@
       <package value="github.com/mingz2013/study.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build test-01.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="study.go" />
       <working_directory value="$PROJECT_DIR$/" />
       <go_parameters value="-i" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/test-700-redis/main.go" />
+      <filePath value="$PROJECT_DIR$/test-120-beego/test-01.go" />
+      <package value="github.com/mingz2013/study.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build test-echo-server-01.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="study.go" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/test-130-echo/test-echo-server-01.go" />
+      <package value="github.com/mingz2013/study.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build test-echo-server-02.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="study.go" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/test-130-echo/test-echo-server-02.go" />
       <package value="github.com/mingz2013/study.go" />
       <method v="2" />
     </configuration>
@@ -388,26 +319,6 @@
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/test-700-redis/test-redis-redigo-pubsub.go" />
       <package value="github.com/mingz2013/study.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestTestRedigo in github.com/mingz2013/study.go/test-700-redis" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="study.go" />
-      <working_directory value="$PROJECT_DIR$/test-700-redis" />
-      <go_parameters value="-i" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="github.com/mingz2013/study.go/test-700-redis" />
-      <pattern value="^TestTestRedigo$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestTestRedisPubSub in github.com/mingz2013/study.go/test-700-redis" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="study.go" />
-      <working_directory value="$PROJECT_DIR$/test-700-redis" />
-      <go_parameters value="-i" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="github.com/mingz2013/study.go/test-700-redis" />
-      <pattern value="^TestTestRedisPubSub$" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
@@ -439,19 +350,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Go Build.go build main.go" />
-      <item itemvalue="Go Test.TestTestRedigo in github.com/mingz2013/study.go/test-700-redis" />
-      <item itemvalue="Go Test.TestTestRedisPubSub in github.com/mingz2013/study.go/test-700-redis" />
       <item itemvalue="Go Build.go build test-redis-redigo-pubsub.go" />
       <item itemvalue="Go Test.test-redis-redigo-pubsub_test.go" />
+      <item itemvalue="Go Build.go build test-echo-server-01.go" />
+      <item itemvalue="Go Build.go build test-echo-server-02.go" />
+      <item itemvalue="Go Build.go build test-01.go" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build test-01.go" />
+        <item itemvalue="Go Build.go build test-echo-server-02.go" />
+        <item itemvalue="Go Build.go build test-echo-server-01.go" />
         <item itemvalue="Go Test.test-redis-redigo-pubsub_test.go" />
         <item itemvalue="Go Build.go build test-redis-redigo-pubsub.go" />
-        <item itemvalue="Go Test.TestTestRedisPubSub in github.com/mingz2013/study.go/test-700-redis" />
-        <item itemvalue="Go Test.TestTestRedigo in github.com/mingz2013/study.go/test-700-redis" />
-        <item itemvalue="Go Build.go build main.go" />
       </list>
     </recent_temporary>
   </component>
@@ -491,13 +402,14 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="683" y="-1057" width="1920" height="1057" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49949342" visible="true" weight="0.33173588" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49949342" visible="true" weight="0.22961374" />
       <window_info id="Favorites" order="1" sideWeight="0.5005066" side_tool="true" weight="0.14430244" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3292683" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.40233546" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2503098" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -520,10 +432,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="gate" />
-    <MESSAGE value="echo" />
-    <MESSAGE value="sdk" />
-    <MESSAGE value="agent" />
     <MESSAGE value="game" />
     <MESSAGE value="http" />
     <MESSAGE value="chat" />
@@ -545,16 +453,14 @@
     <MESSAGE value="redigo" />
     <MESSAGE value="pubsub" />
     <MESSAGE value="redis" />
-    <option name="LAST_COMMIT_MESSAGE" value="redis" />
+    <MESSAGE value="test redis" />
+    <MESSAGE value="echo web framework" />
+    <MESSAGE value="test" />
+    <MESSAGE value="test beego" />
+    <option name="LAST_COMMIT_MESSAGE" value="test beego" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///usr/local/Cellar/go/1.10.3/libexec/src/database/sql/sql_test.go" />
-    <entry file="file:///usr/local/Cellar/go/1.10.3/libexec/src/debug/dwarf/entry.go" />
-    <entry file="file:///usr/local/Cellar/go/1.10.3/libexec/src/debug/dwarf/line.go" />
-    <entry file="file:///usr/local/Cellar/go/1.10.3/libexec/src/debug/dwarf/open.go" />
-    <entry file="file:///usr/local/Cellar/go/1.10.3/libexec/src/flag/flag.go" />
-    <entry file="file:///usr/local/Cellar/go/1.10.3/libexec/src/go/types/eval.go" />
     <entry file="file:///usr/local/Cellar/go/1.10.3/libexec/src/go/types/type.go" />
     <entry file="file:///usr/local/Cellar/go/1.10.3/libexec/src/go/printer/nodes.go" />
     <entry file="file:///usr/local/Cellar/go/1.10.3/libexec/src/go/internal/gccgoimporter/importer.go" />
@@ -591,6 +497,39 @@
     <entry file="file:///usr/local/Cellar/go/1.10.3/libexec/src/go/types/testdata/init1.src" />
     <entry file="file:///usr/local/Cellar/go/1.10.3/libexec/src/go/ast/ast.go" />
     <entry file="file://$PROJECT_DIR$/test-700-redis/main.go" />
+    <entry file="file://$PROJECT_DIR$/test-700-redis/test-redis-redigo_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-700-redis/test-redis-redigo-pubsub_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-700-redis/test-redis-redigo.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1050">
+          <caret line="70" selection-start-line="70" selection-end-line="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-700-redis/runredis.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="435">
+            <caret line="29" selection-start-line="29" selection-end-line="29" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
     <entry file="file:///usr/local/Cellar/go/1.11.1/libexec/src/encoding/json/encode.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2340">
@@ -619,43 +558,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test-700-redis/runredis.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="435">
-            <caret line="29" selection-start-line="29" selection-end-line="29" />
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-700-redis/test-redis-redigo.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="70" selection-start-line="70" selection-end-line="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-700-redis/test-redis-redigo_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-700-redis/test-redis-redigo-pubsub_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test-700-redis/test-redis-redigo-pubsub.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="94" lean-forward="true" selection-start-line="94" selection-end-line="94" />
+        <state relative-caret-position="646">
+          <caret line="105" column="21" selection-start-line="105" selection-start-column="21" selection-end-line="105" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-130-echo/test-echo-server-01.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-130-echo/static/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="23" selection-start-column="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-130-echo/test-echo-server-02.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="102" lean-forward="true" selection-start-line="102" selection-end-line="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-110-photoweb-4/photoweb.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../astaxie/beego/controller.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="237" selection-start-line="237" selection-end-line="237" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-120-beego/test-01.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
