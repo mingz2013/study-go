@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net"
 	"strconv"
-	"github.com/mingz2013/study.go/test-900-game-server/conf"
+	"study-go/test-900-game-server/conf"
 	"log"
 	"io"
 )

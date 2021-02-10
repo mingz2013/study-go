@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/mingz2013/study.go/test-800-chess/centergame"
-	"github.com/mingz2013/study.go/test-800-chess/ipc"
+	"study-go/test-800-chess/centergame"
+	"study-go/test-800-chess/ipc"
 	"fmt"
 	"strconv"
 	"strings"

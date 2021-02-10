@@ -8,7 +8,7 @@
 package routers
 
 import (
-	"github.com/mingz2013/study.go/test-120-beego/03-bee-tool-make-api-pro/controllers"
+	"study-go/test-120-beego/03-bee-tool-make-api-pro/controllers"
 
 	"github.com/astaxie/beego"
 )

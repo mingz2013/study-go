@@ -6,7 +6,7 @@ import (
 	"testing"
 	"runtime"
 	"path/filepath"
-	_ "github.com/mingz2013/study.go/test-120-beego/03-bee-tool-make-api-pro/routers"
+	_ "study-go/test-120-beego/03-bee-tool-make-api-pro/routers"
 
 	"github.com/astaxie/beego"
 	. "github.com/smartystreets/goconvey/convey"

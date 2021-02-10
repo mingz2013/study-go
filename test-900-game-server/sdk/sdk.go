@@ -1,8 +1,8 @@
 package sdk
 
 import (
-	"github.com/mingz2013/study.go/test-900-game-server/conf"
-	"github.com/mingz2013/study.go/test-900-game-server/database"
+	"study-go/test-900-game-server/conf"
+	"study-go/test-900-game-server/database"
 )
 
 type SDK struct{}

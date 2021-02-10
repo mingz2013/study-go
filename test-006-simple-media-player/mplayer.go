@@ -1,13 +1,13 @@
 package main
 
 import (
-	"github.com/mingz2013/study.go/test-006-simple-media-player/library"
+	"study-go/test-006-simple-media-player/library"
 	"fmt"
 	"strconv"
 	"bufio"
 	"os"
 	"strings"
-	"github.com/mingz2013/study.go/test-006-simple-media-player/play"
+	"study-go/test-006-simple-media-player/play"
 )
 
 var lib *library.MusicManager

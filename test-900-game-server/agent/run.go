@@ -6,7 +6,7 @@ import (
 	"log"
 	"io"
 	"net"
-	"github.com/mingz2013/study.go/test-900-game-server/conf"
+	"study-go/test-900-game-server/conf"
 )
 
 func HandleConn(conn net.Conn) {

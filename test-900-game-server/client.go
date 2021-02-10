@@ -4,10 +4,10 @@ import (
 	"flag"
 	"fmt"
 	"log"
-	"github.com/mingz2013/study.go/test-900-game-server/client"
+	"study-go/test-900-game-server/client"
 	"encoding/json"
-	"github.com/mingz2013/study.go/test-900-game-server/sdk"
-	"github.com/mingz2013/study.go/test-900-game-server/database"
+	"study-go/test-900-game-server/sdk"
+	"study-go/test-900-game-server/database"
 )
 
 var url *string = flag.String("url", "http://localhost:8000/login", "sdk url")

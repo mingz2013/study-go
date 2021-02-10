@@ -3,11 +3,11 @@ package sdk
 import (
 	"net/http"
 	"log"
-	"github.com/mingz2013/study.go/test-900-game-server/conf"
+	"study-go/test-900-game-server/conf"
 	"strconv"
 	"encoding/json"
 	"io/ioutil"
-	"github.com/mingz2013/study.go/test-900-game-server/database"
+	"study-go/test-900-game-server/database"
 )
 
 func LoginHandler(w http.ResponseWriter, r *http.Request) {

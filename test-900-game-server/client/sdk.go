@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"io/ioutil"
 	"log"
-	"github.com/mingz2013/study.go/test-900-game-server/sdk"
+	"study-go/test-900-game-server/sdk"
 	"encoding/json"
 	"bytes"
 )

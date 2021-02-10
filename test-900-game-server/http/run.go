@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"fmt"
 	"log"
-	"github.com/mingz2013/study.go/test-900-game-server/conf"
+	"study-go/test-900-game-server/conf"
 )
 
 func ManagerHandler(w http.ResponseWriter, r *http.Request) {

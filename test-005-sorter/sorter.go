@@ -8,8 +8,8 @@ import (
 	"bufio"
 	"strconv"
 	"time"
-	"github.com/mingz2013/study.go/test-005-sorter/algorithms/qsort"
-	"github.com/mingz2013/study.go/test-005-sorter/algorithms/bubblesort"
+	"study-go/test-005-sorter/algorithms/qsort"
+	"study-go/test-005-sorter/algorithms/bubblesort"
 )
 
 var infile *string = flag.String("i", "infile", "File contasins values for sorting")
@@ -41,6 +41,7 @@ func main() {
 	t2 := time.Now()
 	fmt.Println("The sorting process costs", t2.Sub(t1), "to complete")
 	writeValues(values, *outfile)
+
 
 }
 

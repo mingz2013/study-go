@@ -1,884 +1,145 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2dbf4bab-1b57-4dd3-864f-53cc82650c05" name="Default" comment="frame web">
+    <list default="true" id="364c1911-f9b6-404d-8419-8657bfbfbb59" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/old.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-120-beego/02-bee-tool-make/run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-120-beego/03-bee-tool-make-api-pro/run.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/study.go.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-005-sorter/run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/test-005-sorter/run.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-005-sorter/sorter.go" beforeDir="false" afterPath="$PROJECT_DIR$/test-005-sorter/sorter.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-006-simple-media-player/mplayer.go" beforeDir="false" afterPath="$PROJECT_DIR$/test-006-simple-media-player/mplayer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-120-beego/01-hello/hello.go" beforeDir="false" afterPath="$PROJECT_DIR$/test-120-beego/01-hello/hello.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-120-beego/02-bee-tool-make/conf/app.conf" beforeDir="false" afterPath="$PROJECT_DIR$/test-120-beego/02-bee-tool-make/conf/app.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-120-beego/02-bee-tool-make/controllers/default.go" beforeDir="false" afterPath="$PROJECT_DIR$/test-120-beego/02-bee-tool-make/controllers/default.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-120-beego/02-bee-tool-make/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/test-120-beego/02-bee-tool-make/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-120-beego/02-bee-tool-make/routers/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/test-120-beego/02-bee-tool-make/routers/router.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-120-beego/02-bee-tool-make/tests/default_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test-120-beego/02-bee-tool-make/tests/default_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-120-beego/03-bee-tool-make-api-pro/controllers/object.go" beforeDir="false" afterPath="$PROJECT_DIR$/test-120-beego/03-bee-tool-make-api-pro/controllers/object.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-120-beego/03-bee-tool-make-api-pro/controllers/user.go" beforeDir="false" afterPath="$PROJECT_DIR$/test-120-beego/03-bee-tool-make-api-pro/controllers/user.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-120-beego/03-bee-tool-make-api-pro/lastupdate.tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-120-beego/03-bee-tool-make-api-pro/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/test-120-beego/03-bee-tool-make-api-pro/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-120-beego/03-bee-tool-make-api-pro/routers/commentsRouter_________________________Users_zhaojm_go_src_github_com_mingz2013_study_go_test-120-beego_03-bee-tool-make-api-pro_controllers.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-120-beego/03-bee-tool-make-api-pro/routers/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/test-120-beego/03-bee-tool-make-api-pro/routers/router.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-120-beego/03-bee-tool-make-api-pro/tests/default_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test-120-beego/03-bee-tool-make-api-pro/tests/default_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-800-chess/centergame/center.go" beforeDir="false" afterPath="$PROJECT_DIR$/test-800-chess/centergame/center.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-800-chess/centergame/centerclient.go" beforeDir="false" afterPath="$PROJECT_DIR$/test-800-chess/centergame/centerclient.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-800-chess/game.go" beforeDir="false" afterPath="$PROJECT_DIR$/test-800-chess/game.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-900-game-server/agent/run.go" beforeDir="false" afterPath="$PROJECT_DIR$/test-900-game-server/agent/run.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-900-game-server/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/test-900-game-server/client.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-900-game-server/client/sdk.go" beforeDir="false" afterPath="$PROJECT_DIR$/test-900-game-server/client/sdk.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-900-game-server/game/game.go" beforeDir="false" afterPath="$PROJECT_DIR$/test-900-game-server/game/game.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-900-game-server/game/run.go" beforeDir="false" afterPath="$PROJECT_DIR$/test-900-game-server/game/run.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-900-game-server/gate/gate.go" beforeDir="false" afterPath="$PROJECT_DIR$/test-900-game-server/gate/gate.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-900-game-server/gate/run.go" beforeDir="false" afterPath="$PROJECT_DIR$/test-900-game-server/gate/run.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-900-game-server/http/run.go" beforeDir="false" afterPath="$PROJECT_DIR$/test-900-game-server/http/run.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-900-game-server/sdk/run.go" beforeDir="false" afterPath="$PROJECT_DIR$/test-900-game-server/sdk/run.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-900-game-server/sdk/sdk.go" beforeDir="false" afterPath="$PROJECT_DIR$/test-900-game-server/sdk/sdk.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-900-game-server/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/test-900-game-server/server.go" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand />
-    <select />
-  </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="323687908">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="22" />
-          <entry key="project.open.time.0" value="9" />
-          <entry key="project.open.time.1" value="4" />
-          <entry key="project.open.time.3" value="2" />
-          <entry key="project.open.time.4" value="3" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.open.time.7" value="2" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="22" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="conf" value="3" />
-          <entry key="go" value="351" />
-          <entry key="hello" value="1" />
-          <entry key="html" value="1" />
-          <entry key="md" value="4" />
-          <entry key="s" value="9" />
-          <entry key="sh" value="1" />
-          <entry key="src" value="9" />
-          <entry key="tmp" value="2" />
-          <entry key="tpl" value="2" />
-          <entry key="yaml" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="Go" value="351" />
-          <entry key="HTML" value="1" />
-          <entry key="Markdown" value="4" />
-          <entry key="PLAIN_TEXT" value="18" />
-          <entry key="YAML" value="1" />
-          <entry key="x86 Plan9 Assembly" value="9" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="go" value="16088" />
-          <entry key="html" value="25" />
-          <entry key="md" value="625" />
-          <entry key="txt" value="185" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="Go" value="16088" />
-          <entry key="HTML" value="25" />
-          <entry key="Markdown" value="625" />
-          <entry key="PLAIN_TEXT" value="185" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.go.postfix.template.usages.trigger">
-        <counts>
-          <entry key=".append" value="2" />
-          <entry key=".copy" value="2" />
-          <entry key=".p" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.js.language.service.starts" />
-      <usages-collector id="statistics.vcs.git.usages" />
-    </session>
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="study.go" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test-600-cli/test-07.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="51" column="22" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test-600-cli/test-08.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test-600-cli/test-09.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test-600-cli/test-10.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test-600-cli/test-11.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test-600-cli/test-12.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test-600-cli/test-13.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test-600-cli/test-14.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test-600-cli/test-15.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="83">
-              <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test-600-cli/test-20-full-api-example.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="HTML File" />
-        <option value="Go File" />
-      </list>
-    </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>lib</find>
-      <find>flag</find>
-      <find>for</find>
-      <find>fmt</find>
-      <find>read</find>
-      <find>setr</find>
-      <find>Register</find>
-      <find>Room</find>
-      <find>executet</find>
-      <find>listDir</find>
-      <find>test-910-game-server</find>
-      <find>serve</find>
-      <find>bufw</find>
-      <find>write</find>
-      <find>CompareAndSwapPointer</find>
-      <find>Syscall</find>
-      <find>http</find>
-      <find>serveh</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>test-910-mahjong-table</replace>
-    </replaceStrings>
-    <dirStrings>
-      <dir>$PROJECT_DIR$</dir>
-      <dir>$PROJECT_DIR$/test-900-game-server</dir>
-      <dir>$PROJECT_DIR$/../../name5566</dir>
-      <dir>$PROJECT_DIR$/../../name5566/leaf</dir>
-      <dir>$PROJECT_DIR$/../../liangdas/mqant</dir>
-      <dir>$PROJECT_DIR$/test-007-chess</dir>
-      <dir>$PROJECT_DIR$/test-910-mahjong-table</dir>
-      <dir>/usr/local/Cellar/go/1.10.3/libexec/src/sync</dir>
-      <dir>/usr/local/Cellar/go/1.10.3/libexec/src/syscall</dir>
-    </dirStrings>
-  </component>
-  <component name="GOROOT" path="/usr/local/Cellar/go/1.11.1/libexec" />
+  <component name="GOROOT" url="file:///usr/local/Cellar/go/1.15.7_1/libexec" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/test-910-mahjong-table/msg/msg.go" />
-        <option value="$PROJECT_DIR$/test-910-mahjong-table/player/cards.go" />
-        <option value="$PROJECT_DIR$/test-910-mahjong-table/sdk/sdk.go" />
-        <option value="$PROJECT_DIR$/test-910-mahjong-table/table/bottom.go" />
-        <option value="$PROJECT_DIR$/test-910-mahjong-table/table/manager.go" />
-        <option value="$PROJECT_DIR$/test-910-mahjong-table/table/play.go" />
-        <option value="$PROJECT_DIR$/test-910-mahjong-table/test.go" />
-        <option value="$PROJECT_DIR$/test-910-mahjong-table/table/table.go" />
-        <option value="$PROJECT_DIR$/test-910-mahjong-table/robot/robot.go" />
-        <option value="$PROJECT_DIR$/test-901-match-room/main.go" />
-        <option value="$PROJECT_DIR$/test-901-match-room/doc.md" />
-        <option value="$PROJECT_DIR$/test-901-match-room/room/player.go" />
-        <option value="$PROJECT_DIR$/test-901-match-room/room/msg.go" />
-        <option value="$PROJECT_DIR$/test-901-match-room/room/room.go" />
-        <option value="$PROJECT_DIR$/test-901-match-room/room/manager.go" />
-        <option value="$PROJECT_DIR$/test-902-connector/doc.md" />
-        <option value="$PROJECT_DIR$/test-902-connector/main.go" />
-        <option value="$PROJECT_DIR$/test-902-connector/msg/msg.go" />
-        <option value="$PROJECT_DIR$/test-902-connector/session/session.go" />
-        <option value="$PROJECT_DIR$/test-009-json/test-009-json.go" />
-        <option value="$PROJECT_DIR$/test-001-hello/test-001-hello.go" />
-        <option value="$PROJECT_DIR$/test-700-redis/main.go" />
-        <option value="$PROJECT_DIR$/test-700-redis/test-redis-redigo_test.go" />
-        <option value="$PROJECT_DIR$/test-700-redis/test-redis-redigo.go" />
-        <option value="$PROJECT_DIR$/test-700-redis/test-redis-redigo-pubsub_test.go" />
-        <option value="$PROJECT_DIR$/test-700-redis/runredis.md" />
-        <option value="$PROJECT_DIR$/test-700-redis/test-redis-redigo-pubsub.go" />
-        <option value="$PROJECT_DIR$/test-130-echo/test-echo-server-01.go" />
-        <option value="$PROJECT_DIR$/test-130-echo/static/index.html" />
-        <option value="$PROJECT_DIR$/test-130-echo/test-echo-server-02.go" />
-        <option value="$PROJECT_DIR$/test-110-photoweb-4/photoweb.go" />
-        <option value="$PROJECT_DIR$/test-120-beego/test-01.go" />
-        <option value="$PROJECT_DIR$/test-120-beego/03-bee-tool-make-api-pro/models/object.go" />
-        <option value="$PROJECT_DIR$/test-140-mux/test-01.go" />
-        <option value="$PROJECT_DIR$/test-150-gin/test-01.go" />
-        <option value="$PROJECT_DIR$/test-600-cli/test-01.go" />
-        <option value="$PROJECT_DIR$/test-600-cli/test-02.go" />
-        <option value="$PROJECT_DIR$/test-600-cli/test-03.go" />
-        <option value="$PROJECT_DIR$/test-600-cli/test-04.go" />
-        <option value="$PROJECT_DIR$/test-600-cli/test-05.go" />
-        <option value="$PROJECT_DIR$/test-600-cli/test-06.go" />
-        <option value="$PROJECT_DIR$/test-600-cli/test-07.go" />
-        <option value="$PROJECT_DIR$/test-600-cli/test-08.go" />
-        <option value="$PROJECT_DIR$/test-600-cli/test-09.go" />
-        <option value="$PROJECT_DIR$/test-600-cli/test-10.go" />
-        <option value="$PROJECT_DIR$/test-600-cli/test-11.go" />
-        <option value="$PROJECT_DIR$/test-600-cli/test-12.go" />
-        <option value="$PROJECT_DIR$/test-600-cli/test-13.go" />
-        <option value="$PROJECT_DIR$/test-600-cli/test-14.go" />
-        <option value="$PROJECT_DIR$/test-600-cli/test-15.go" />
-        <option value="$PROJECT_DIR$/test-600-cli/test-20-full-api-example.go" />
-      </list>
-    </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="study.go" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study.go" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study.go" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study.go" type="462c0819:PsiDirectoryNode" />
-              <item name="test-600-cli" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectId" id="1oIx9Djstq7Li4ctLc9E4heOucl" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DefaultGoTemplateProperty" value="Go File" />
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="GO_FMT" value="false" />
-    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
-    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
-    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
-    <property name="go.gopath.indexing.explicitly.defined" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable..is.expanded" value="false" />
+    <property name="configurable.GoLibrariesConfigurable.is.expanded" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="go.vgo" />
   </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/test-130-echo" />
-      <recent name="$PROJECT_DIR$/test-110-photoweb-0" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/test-110-photoweb" />
-      <recent name="$PROJECT_DIR$/test-012-pipeline" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/test-910-mahjong-table/table" />
-      <recent name="$PROJECT_DIR$/test-910-mahjong-table/play" />
-      <recent name="$PROJECT_DIR$/test-910-mahjong-table/player" />
-      <recent name="$PROJECT_DIR$/test-910-game-server/player" />
-      <recent name="$PROJECT_DIR$/test-910-game-server/robot" />
-    </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Go Build.go build test-01.go">
-    <configuration default="true" type="GoRunFileConfiguration" factoryName="Go Single File">
-      <module name="study.go" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <method />
-    </configuration>
-    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
-      <module name="study.go" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <go_parameters value="-i" />
+  <component name="RunManager" selected="Shell Script.run.sh (1)">
+    <configuration name="go build hello.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="study-go" />
+      <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/" />
-      <package value="github.com/mingz2013/study.go" />
+      <filePath value="$PROJECT_DIR$/test-120-beego/01-hello/hello.go" />
+      <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build test-01.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="study.go" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <go_parameters value="-i" />
+    <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="study-go" />
+      <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/test-120-beego/test-01.go" />
-      <package value="github.com/mingz2013/study.go" />
+      <filePath value="$PROJECT_DIR$/test-120-beego/02-bee-tool-make/main.go" />
+      <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build test-echo-server-01.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="study.go" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <go_parameters value="-i" />
+    <configuration name="go build test-400-lissajous.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="study-go" />
+      <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/test-130-echo/test-echo-server-01.go" />
-      <package value="github.com/mingz2013/study.go" />
+      <filePath value="$PROJECT_DIR$/test-400-lissajous/test-400-lissajous.go" />
+      <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build test-echo-server-02.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="study.go" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <go_parameters value="-i" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/test-130-echo/test-echo-server-02.go" />
-      <package value="github.com/mingz2013/study.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build test-redis-redigo-pubsub.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="study.go" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <go_parameters value="-i" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/test-700-redis/test-redis-redigo-pubsub.go" />
-      <package value="github.com/mingz2013/study.go" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
-      <module name="study.go" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <go_parameters value="-i" />
-      <framework value="gotest" />
-      <kind value="DIRECTORY" />
-      <package value="github.com/mingz2013/study.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test-redis-redigo-pubsub_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="study.go" />
-      <working_directory value="$PROJECT_DIR$/test-700-redis" />
-      <go_parameters value="-i" />
-      <framework value="gotest" />
-      <kind value="FILE" />
-      <package value="github.com/mingz2013/study.go" />
-      <filePath value="$PROJECT_DIR$/test-700-redis/test-redis-redigo-pubsub_test.go" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
+    <configuration name="run.sh (1)" type="ShConfigurationType" temporary="true">
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/test-400-lissajous/run.sh" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$/test-400-lissajous" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="/usr/local/bin/zsh" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="EXECUTE_IN_TERMINAL" value="true" />
       <envs />
       <method v="2" />
     </configuration>
-    <list>
-      <item itemvalue="Go Build.go build test-redis-redigo-pubsub.go" />
-      <item itemvalue="Go Test.test-redis-redigo-pubsub_test.go" />
-      <item itemvalue="Go Build.go build test-echo-server-01.go" />
-      <item itemvalue="Go Build.go build test-echo-server-02.go" />
-      <item itemvalue="Go Build.go build test-01.go" />
-    </list>
+    <configuration name="run.sh" type="ShConfigurationType" temporary="true">
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/test-120-beego/03-bee-tool-make-api-pro/run.sh" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$/test-120-beego/03-bee-tool-make-api-pro" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="/usr/local/bin/zsh" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="EXECUTE_IN_TERMINAL" value="true" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build test-01.go" />
-        <item itemvalue="Go Build.go build test-echo-server-02.go" />
-        <item itemvalue="Go Build.go build test-echo-server-01.go" />
-        <item itemvalue="Go Test.test-redis-redigo-pubsub_test.go" />
-        <item itemvalue="Go Build.go build test-redis-redigo-pubsub.go" />
+        <item itemvalue="Shell Script.run.sh (1)" />
+        <item itemvalue="Go Build.go build test-400-lissajous.go" />
+        <item itemvalue="Shell Script.run.sh" />
+        <item itemvalue="Go Build.go build main.go (1)" />
+        <item itemvalue="Go Build.go build hello.go" />
       </list>
     </recent_temporary>
   </component>
-  <component name="StructureViewFactory">
-    <option name="ACTIVE_ACTIONS" value=",ALPHA_COMPARATOR" />
-  </component>
-  <component name="TestHistory">
-    <history-entry file="TestTestRedisPubSub_in_github_com_mingz2013_study_go_test-700-redis - 2018.10.19 at 11h 48m 41s.xml">
-      <configuration name="TestTestRedisPubSub in github.com/mingz2013/study.go/test-700-redis" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="test-redis-redigo-pubsub_test_go - 2018.10.22 at 11h 37m 11s.xml">
-      <configuration name="test-redis-redigo-pubsub_test.go" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="test-redis-redigo-pubsub_test_go - 2018.10.22 at 11h 37m 32s.xml">
-      <configuration name="test-redis-redigo-pubsub_test.go" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="test-redis-redigo-pubsub_test_go - 2018.10.22 at 11h 38m 43s.xml">
-      <configuration name="test-redis-redigo-pubsub_test.go" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="test-redis-redigo-pubsub_test_go - 2018.10.22 at 11h 38m 45s.xml">
-      <configuration name="test-redis-redigo-pubsub_test.go" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="test-redis-redigo-pubsub_test_go - 2018.10.22 at 11h 38m 54s.xml">
-      <configuration name="test-redis-redigo-pubsub_test.go" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="test-redis-redigo-pubsub_test_go - 2018.10.22 at 11h 39m 49s.xml">
-      <configuration name="test-redis-redigo-pubsub_test.go" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="test-redis-redigo-pubsub_test_go - 2018.10.22 at 11h 42m 03s.xml">
-      <configuration name="test-redis-redigo-pubsub_test.go" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="test-redis-redigo-pubsub_test_go - 2018.10.22 at 11h 42m 26s.xml">
-      <configuration name="test-redis-redigo-pubsub_test.go" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="test-redis-redigo-pubsub_test_go - 2018.10.22 at 11h 43m 33s.xml">
-      <configuration name="test-redis-redigo-pubsub_test.go" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49949342" visible="true" weight="0.23819743" />
-      <window_info id="Favorites" order="1" sideWeight="0.5005066" side_tool="true" weight="0.14430244" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3292683" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.1425031" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32826748" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.41759604" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" weight="0.32960597" />
-      <window_info anchor="right" id="Structure" order="4" weight="0.33547926" />
-    </layout>
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="rpc" />
-    <MESSAGE value="整理代码" />
-    <MESSAGE value="示例" />
-    <MESSAGE value="demo, read book, the go programming" />
-    <MESSAGE value="demo, read book, the go programming language" />
-    <MESSAGE value="demo, read book" />
-    <MESSAGE value="photoweb" />
-    <MESSAGE value="table demo" />
-    <MESSAGE value="关于方法指针" />
-    <MESSAGE value="mv mahjong-table to new proj" />
-    <MESSAGE value="room" />
-    <MESSAGE value="connector" />
-    <MESSAGE value="json" />
-    <MESSAGE value="hello" />
-    <MESSAGE value="redigo" />
-    <MESSAGE value="pubsub" />
-    <MESSAGE value="redis" />
-    <MESSAGE value="test redis" />
-    <MESSAGE value="echo web framework" />
-    <MESSAGE value="test" />
-    <MESSAGE value="test beego" />
-    <MESSAGE value="test go" />
-    <MESSAGE value="beego study" />
-    <MESSAGE value="frame web" />
-    <MESSAGE value="test cli cmds" />
-    <option name="LAST_COMMIT_MESSAGE" value="test cli cmds" />
-    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../../gorilla/context/doc.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../gorilla/mux/context.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../gorilla/reverse/gorilla.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2583">
-          <caret line="39" column="27" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../liangdas/mqant/conf/config.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1732">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../liangdas/mqant/app/app.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4321">
-          <caret line="112" lean-forward="true" selection-start-line="112" selection-end-line="112" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../cpp2go/gonet/service.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-56">
-          <caret line="28" column="14" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../cpp2go/gonet/tcpclient.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../cpp2go/gonet/tcpserver.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../cpp2go/gonet/tcptask.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../fananchong/go-x/k8s/login.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="13" lean-forward="true" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../fananchong/gotcp/example/server/server.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="563">
-          <caret line="49" column="1" lean-forward="true" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../fananchong/gotcp/server.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="581">
-          <caret line="92" column="1" lean-forward="true" selection-start-line="92" selection-start-column="1" selection-end-line="92" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../fananchong/go-x/example1_iogame/room/app.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../liangdas/mqant/mqant.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../liangdas/mqant/gate/base/session.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../lonnng/nano/app.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="130" lean-forward="true" selection-start-line="130" selection-end-line="130" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../lonnng/nano/ws.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1178">
-          <caret line="36" column="1" lean-forward="true" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../lonnng/nano/handler.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3279">
-          <caret line="34" column="1" lean-forward="true" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../micro/go-api/api.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-538">
-          <caret line="41" column="31" lean-forward="true" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../micro/go-api/server/server.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-692">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../micro/go-api/router/route.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-436">
-          <caret line="37" column="41" selection-start-line="37" selection-start-column="41" selection-end-line="37" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-102-web-server/test-102-web-server.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-101-web-server/test-101-web-server.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-100-web-servers/test-100-web-servers.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-140-mux/test-01.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-130-echo/test-echo-server-01.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../gin-gonic/gin/utils.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-150-gin/test-01.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../gin-gonic/gin/context.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="768" column="18" selection-start-line="768" selection-start-column="18" selection-end-line="768" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-120-beego/01-hello/hello.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-120-beego/03-bee-tool-make-api-pro/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-120-beego/03-bee-tool-make-api-pro/routers/router.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-130-echo/test-echo-server-02.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="571">
-          <caret line="60" column="5" lean-forward="true" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-002-command-line/test-002-command-line.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-600-cli/test-01.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-600-cli/test-02.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="26" column="22" lean-forward="true" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-600-cli/test-03.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-600-cli/test-04.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-600-cli/test-05.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-600-cli/test-06.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../urfave/cli/flag.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="53" column="5" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-600-cli/test-07.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="51" column="22" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-600-cli/test-08.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-600-cli/test-09.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-600-cli/test-10.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-600-cli/test-11.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-600-cli/test-12.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-600-cli/test-13.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-600-cli/test-14.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-600-cli/test-15.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-600-cli/test-20-full-api-example.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
   </component>
 </project>

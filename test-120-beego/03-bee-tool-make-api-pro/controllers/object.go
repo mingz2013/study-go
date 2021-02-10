@@ -1,7 +1,7 @@
 package controllers
 
 import (
-	"github.com/mingz2013/study.go/test-120-beego/03-bee-tool-make-api-pro/models"
+	"study-go/test-120-beego/03-bee-tool-make-api-pro/models"
 	"encoding/json"
 
 	"github.com/astaxie/beego"

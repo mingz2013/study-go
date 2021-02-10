@@ -1,59 +1,19 @@
-# study.go
+vim .zshrc
 
-
-
-- install go
-
-`brew install go`
-
-- workspace
-
-`mkdir ~/go`
-
-`export GOPATH=~/go`
-
-`export PATH=$PATH:$GOPATH/bin`
-
-`mkdir -p ~/go/src/github.com/mingz2013`
-
-- hello go
-
-`cd ~/go/src/github.com/mingz2013/`
-
-`git clone https://github.com/mingz2013/study.go.git`
-
-`cd study.go`
-
-`mkdir hello`
-
-`cd hello`
-
-`touch hello.go`
-
-`vim hello.go`
-
-```go
-package main
-
-import "fmt"
-
-func main() {
-	fmt.Println("Hello, world.\n")
-}
+```
+187 # golang
+188 #export GOPATH=~/go
+189 #export PATH=$PATH:$GOPATH/bin
+190 # export GOROOT_FINAL=/usr/local/Cellar/go/1.10.3/libexec
+191 export GO111MODULE=on
+192 export GOPROXY=https://goproxy.io
+193
 ```
 
-`go install`
 
-`hello`
+`go mod init study-go`
 
+`go mod tidy`
 
----
-
-
-`go run hello.go`
-
-`go install https://github.com/mingz2013/study.go`
-
-
-
+`go mod vendor`
 
