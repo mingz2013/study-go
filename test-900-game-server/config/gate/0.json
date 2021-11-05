@@ -1,9 +1,0 @@
-{
-  "servers": [
-    {
-      "protocol": "TCP",
-      "ip": "localhost",
-      "port": 8001
-    }
-  ]
-}
