@@ -2,10 +2,10 @@ package main
 
 import (
 	"github.com/pkg/errors"
-	"net/rpc"
-	"net"
 	"log"
+	"net"
 	"net/http"
+	"net/rpc"
 )
 
 type Args struct {
@@ -35,7 +35,7 @@ func (t *Arith) Divide(args *Args, quo *Quotient) error {
 func main() {
 	arith := new(Arith)
 
-	rpc.Register(arith)
+	rpc.RegisterName("HelloService", arith)
 
 	rpc.HandleHTTP()
 
@@ -45,4 +45,13 @@ func main() {
 	}
 
 	go http.Serve(l, nil)
+
+	client, err := rpc.DialHTTP("tcp", "localhost:8000")
+	if err != nil {
+		log.Fatal(err)
+	}
+	var r int
+	client.Call("HelloService.Multiply", Args{1, 2}, &r)
+	log.Println(r)
+
 }
