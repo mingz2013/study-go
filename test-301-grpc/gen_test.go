@@ -1,14 +1,14 @@
-package gen
+package test_301_grpc
 
 import (
 	"fmt"
 	"google.golang.org/protobuf/proto"
-	"study-go/test-301-grpc/gen/gen"
+	"study-go/test-301-grpc/pb"
 	"testing"
 )
 
 func TestProto(t *testing.T) {
-	info := &gen.Info{}
+	info := &pb.Info{}
 	info.UID = 10
 	info.Power = 20
 	info.StartedAt = 30
@@ -21,7 +21,7 @@ func TestProto(t *testing.T) {
 	}
 	fmt.Println(b)
 
-	info2 := &gen.Info{}
+	info2 := &pb.Info{}
 	err = proto.Unmarshal(b, info2)
 	if err != nil {
 		fmt.Println(err)

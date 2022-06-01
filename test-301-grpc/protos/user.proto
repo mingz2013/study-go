@@ -8,7 +8,7 @@ package user;
 
 // 指定 go 的包路径及包名
 
- option go_package="./gen";
+ option go_package="./pb";
 
 // 指定 php 的命名空间
 

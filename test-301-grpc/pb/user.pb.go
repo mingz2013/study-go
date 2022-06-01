@@ -6,7 +6,7 @@
 
 // user 包
 
-package gen
+package pb
 
 import (
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"

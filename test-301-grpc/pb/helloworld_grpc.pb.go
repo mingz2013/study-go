@@ -4,7 +4,7 @@
 // - protoc             v3.19.4
 // source: protos/helloworld.proto
 
-package gen
+package pb
 
 import (
 	context "context"

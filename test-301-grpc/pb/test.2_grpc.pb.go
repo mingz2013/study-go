@@ -4,7 +4,7 @@
 // - protoc             v3.19.4
 // source: protos/test.2.proto
 
-package gen
+package pb
 
 import (
 	context "context"

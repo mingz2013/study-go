@@ -4,7 +4,7 @@ syntax = "proto3"; // 指定版本号
 
 //package example; //
 
-option go_package="./gen"; // 选项，用于指定饱含所生成代码的go软件包的完整导入路径
+option go_package="./pb"; // 选项，用于指定饱含所生成代码的go软件包的完整导入路径
 
 enum FOO {
   X = 0;

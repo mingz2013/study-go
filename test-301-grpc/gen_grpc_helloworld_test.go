@@ -1,29 +1,29 @@
-package gen
+package test_301_grpc
 
 import (
 	"context"
+	"study-go/test-301-grpc/pb"
+
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 	"log"
 	"net"
-	"study-go/test-301-grpc/gen/gen"
 	"testing"
 )
 
 type greeterServer struct {
-	gen.UnimplementedGreeterServer
+	pb.UnimplementedGreeterServer
 }
 
-func (g greeterServer) SayHello(ctx context.Context, request *gen.HelloRequest) (*gen.HelloReply, error) {
+func (g greeterServer) SayHello(ctx context.Context, request *pb.HelloRequest) (*pb.HelloReply, error) {
 	log.Println("sayhello:", request.GetName())
-	return &gen.HelloReply{
+	return &pb.HelloReply{
 		Message: "Hello" + request.GetName(),
 	}, nil
 
 }
 
-func TestGreeterServer(t *testing.T) {
-
+func serveGreeterServer() {
 	l, err := net.Listen("tcp", "localhost")
 	if err != nil {
 		log.Fatalln(err)
@@ -31,11 +31,16 @@ func TestGreeterServer(t *testing.T) {
 
 	s := grpc.NewServer()
 
-	gen.RegisterGreeterServer(s, &greeterServer{})
+	pb.RegisterGreeterServer(s, &greeterServer{})
 
 	if err := s.Serve(l); err != nil {
 		log.Fatalln(err)
 	}
+}
+
+func TestGreeterServer(t *testing.T) {
+
+	serveGreeterServer()
 
 }
 
@@ -48,12 +53,12 @@ func testGreeterClient() {
 
 	defer conn.Close()
 
-	c := gen.NewGreeterClient(conn)
+	c := pb.NewGreeterClient(conn)
 
 	//ctx, cancel := context.WithTimeout(context.Background(), time.Second)
 	//defer cancel()
 
-	r, err := c.SayHello(context.Background(), &gen.HelloRequest{
+	r, err := c.SayHello(context.Background(), &pb.HelloRequest{
 		Name: "name",
 	})
 

@@ -1,4 +1,4 @@
-package gen
+package test_301_grpc
 
 import (
 	"context"
@@ -7,7 +7,7 @@ import (
 	"google.golang.org/grpc/reflection"
 	"log"
 	"net"
-	"study-go/test-301-grpc/gen/gen"
+	"study-go/test-301-grpc/pb"
 	"testing"
 	"time"
 )
@@ -15,22 +15,22 @@ import (
 //UserServer  实现User服务的业务对象
 
 type UserServer struct {
-	gen.UnimplementedUserServer
+	pb.UnimplementedUserServer
 }
 
 //UserView 获取详情
 
-func (u *UserServer) UserView(ctx context.Context, in *gen.UserViewRequest) (*gen.UserViewResponse, error) {
+func (u *UserServer) UserView(ctx context.Context, in *pb.UserViewRequest) (*pb.UserViewResponse, error) {
 	//panic("implement me")
 	log.Printf("receive user uid request:uid %d", in.Uid)
 
-	return &gen.UserViewResponse{
+	return &pb.UserViewResponse{
 
 		Err: 0,
 
 		Msg: "success",
 
-		Data: &gen.UserEntity{
+		Data: &pb.UserEntity{
 
 			Name: "aaaa", Age: 28,
 		},
@@ -39,17 +39,17 @@ func (u *UserServer) UserView(ctx context.Context, in *gen.UserViewRequest) (*ge
 
 //UserIndex 实现了User 服务接口的所有方法
 
-func (u *UserServer) UserIndex(ctx context.Context, in *gen.UserIndexRequest) (*gen.UserIndexResponse, error) {
+func (u *UserServer) UserIndex(ctx context.Context, in *pb.UserIndexRequest) (*pb.UserIndexResponse, error) {
 
 	log.Printf("receive user index request:page %d page_size %d", in.Page, in.PageSize)
 
-	return &gen.UserIndexResponse{
+	return &pb.UserIndexResponse{
 
 		Err: 0,
 
 		Msg: "success",
 
-		Data: []*gen.UserEntity{
+		Data: []*pb.UserEntity{
 
 			{Name: "aaaa", Age: 28},
 
@@ -61,11 +61,11 @@ func (u *UserServer) UserIndex(ctx context.Context, in *gen.UserIndexRequest) (*
 
 //UserPost 提交数据
 
-func (u *UserServer) UserPost(ctx context.Context, in *gen.UserPostRequest) (*gen.UserPostResponse, error) {
+func (u *UserServer) UserPost(ctx context.Context, in *pb.UserPostRequest) (*pb.UserPostResponse, error) {
 
 	log.Printf("receive user uid request:name %s password:%s,age:%d", in.Name, in.Password, in.Age)
 
-	return &gen.UserPostResponse{
+	return &pb.UserPostResponse{
 
 		Err: 0,
 
@@ -76,11 +76,11 @@ func (u *UserServer) UserPost(ctx context.Context, in *gen.UserPostRequest) (*ge
 
 //UserDelete 删除数据
 
-func (u *UserServer) UserDelete(ctx context.Context, in *gen.UserDeleteRequest) (*gen.UserDeleteResponse, error) {
+func (u *UserServer) UserDelete(ctx context.Context, in *pb.UserDeleteRequest) (*pb.UserDeleteResponse, error) {
 
 	log.Printf("receive user uid request:uid %d", in.Uid)
 
-	return &gen.UserDeleteResponse{
+	return &pb.UserDeleteResponse{
 
 		Err: 0,
 
@@ -105,7 +105,7 @@ func testService() {
 
 	//为User服务注册业务实现 将User服务绑定到RPC服务器上
 
-	gen.RegisterUserServer(grpcServer, &UserServer{})
+	pb.RegisterUserServer(grpcServer, &UserServer{})
 
 	//注册反射服务， 这个服务是CLI使用的， 跟服务本身没有关系
 
@@ -133,7 +133,7 @@ func testClient() {
 
 	defer conn.Close()
 
-	userClient := gen.NewUserClient(conn)
+	userClient := pb.NewUserClient(conn)
 
 	//设定请求超时时间 3s
 
@@ -143,7 +143,7 @@ func testClient() {
 
 	//UserIndex 请求
 
-	userIndexResponse, err := userClient.UserIndex(ctx, &gen.UserIndexRequest{
+	userIndexResponse, err := userClient.UserIndex(ctx, &pb.UserIndexRequest{
 
 		Page: 1,
 
@@ -178,7 +178,7 @@ func testClient() {
 
 	// UserView 请求
 
-	userViewResponse, err := userClient.UserView(ctx, &gen.UserViewRequest{Uid: 1})
+	userViewResponse, err := userClient.UserView(ctx, &pb.UserViewRequest{Uid: 1})
 
 	if err != nil {
 
@@ -202,7 +202,7 @@ func testClient() {
 
 	// UserPost 请求
 
-	userPostReponse, err := userClient.UserPost(ctx, &gen.UserPostRequest{Name: "big_cat", Password: "123456", Age: 29})
+	userPostReponse, err := userClient.UserPost(ctx, &pb.UserPostRequest{Name: "big_cat", Password: "123456", Age: 29})
 
 	if err != nil {
 
@@ -222,7 +222,7 @@ func testClient() {
 
 	// UserDelete 请求
 
-	userDeleteReponse, err := userClient.UserDelete(ctx, &gen.UserDeleteRequest{Uid: 1})
+	userDeleteReponse, err := userClient.UserDelete(ctx, &pb.UserDeleteRequest{Uid: 1})
 
 	if err != nil {
 

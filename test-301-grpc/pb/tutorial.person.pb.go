@@ -12,7 +12,7 @@
 //包声明，tutorial 也可以声明为二级类型。
 //例如a.b，表示a类别下b子类别
 
-package gen
+package pb
 
 import (
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
