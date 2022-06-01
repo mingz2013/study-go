@@ -1,0 +1,16 @@
+
+
+
+syntax = "proto3";
+
+package protos;
+
+option go_package ="./gen";
+
+
+message Info {
+  uint32 UID = 1;
+  int32 Power = 3;
+  int64 StartedAt = 4;
+  double OutputMoney = 7;
+}

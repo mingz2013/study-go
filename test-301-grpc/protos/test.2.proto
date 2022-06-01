@@ -1,0 +1,78 @@
+
+syntax = "proto3"; // 指定版本号
+
+
+//package example; //
+
+option go_package="./gen"; // 选项，用于指定饱含所生成代码的go软件包的完整导入路径
+
+enum FOO {
+  X = 0;
+};
+
+
+message Test {
+  string label = 1;
+  int32 type = 2;
+  int64 reps = 3;
+  repeated string phone = 4; // 数组
+
+}
+
+
+message Test2 {
+  Test t = 1; // 结构体嵌套
+
+}
+
+
+
+message Teacher {
+  string name = 1;
+  int32 age = 2;
+  string address = 3;
+
+  // 定义一个结构体
+  message PhoneNumber {
+    string number = 1;
+    int64 type = 2;
+  }
+  // 使用定义的结构体
+  PhoneNumber phone = 4;
+
+  repeated PhoneNumber phones = 5; // 数组
+
+
+  // 如果有一个饱含许多字段的消息，并且只能同时设置一个字段，则可以使用oneof
+  oneof data {
+    string school = 6;
+    int32 score = 7;
+  }
+
+
+}
+
+
+// 定义一种枚举类型
+enum PhoneType {
+//  option allow_alias = true; // 选项：是否可以定义别名
+  MOBILE = 0;
+  HOME = 1;
+  WORK = 2;
+  Personal = 3;
+
+}
+
+
+// 如果需要将message与RPC一起使用，则可以在.proto文件中定义RPC服务接口，
+//protobuf编译器将根据你选择的语言生成RPC接口代码
+// 通过定义服务，然后借助框架帮助实现部分的RPC代码
+
+// 使用命令 protoc --go_out=plugins=grpc:./gen protos/*.proto
+
+service HelloService {
+  rpc World (Teacher) returns (Teacher);
+}
+
+
+
