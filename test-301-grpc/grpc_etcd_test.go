@@ -8,44 +8,52 @@ import (
 	"google.golang.org/grpc"
 	"log"
 	"study-go/test-301-grpc/pb"
+	"testing"
+	"time"
 )
 
-func main() {
+func TestGrpcEtcd(t *testing.T) {
 	// 创建etcd客户端
 	cli, cerr := clientv3.NewFromURL("http://localhost:2379")
 	if cerr != nil {
 		log.Fatalln(cerr)
 	}
 
-	//  启动服务
-	go serveGreeterServer()
+	go func() {
 
-	// 创建endpoints管理
-	em, err := endpoints.NewManager(cli, "foo/bar/my-service")
-	if err != nil {
-		log.Fatalln(err)
-	}
-	// 添加节点, 可设置租约
-	err = em.AddEndpoint(
-		context.TODO(),
-		"foo/bar/my-service/e1",
-		endpoints.Endpoint{Addr: "localhost"},
-	)
+		// 创建endpoints管理
+		em, err := endpoints.NewManager(cli, "foo/bar/my-service")
+		if err != nil {
+			log.Fatalln(err)
+		}
+		// 添加节点, 可设置租约
+		err = em.AddEndpoint(
+			context.TODO(),
+			"foo/bar/my-service/e1",
+			endpoints.Endpoint{Addr: "localhost"},
+		)
 
-	if err != nil {
-		log.Fatalln(err)
-	}
+		if err != nil {
+			log.Fatalln(err)
+		}
 
-	// 删除节点
-	//err = em.DeleteEndpoint(context.TODO(), "foo/bar/my-service/e1");
-	//if err != nil{
-	//	log.Fatalln(err)
-	//}
+		defer func() {
+			// 删除节点
+			err = em.DeleteEndpoint(context.TODO(), "foo/bar/my-service/e1")
+			if err != nil {
+				log.Fatalln(err)
+			}
 
-	// 一次修改多个
-	//em.Update(context.TODO(), []*endpoints.UpdateWithOpts{
-	//
-	//})
+			////一次修改多个
+			//em.Update(context.TODO(), []*endpoints.UpdateWithOpts{
+			//
+			//})
+		}()
+
+		//  启动服务
+		serveGreeterServer()
+
+	}()
 
 	// 创建resolover
 	etcdResolver, err := resolver.NewBuilder(cli)
@@ -54,10 +62,11 @@ func main() {
 	}
 
 	// 创建grpc连接, 使用etcd resolver，并配置balancer 策略
-	// resolver负责解析server name，并拿到server列表。同步给balancer
-	// balancer从resolver接收地址列表，建立并维护连接状态，每次当Client发起RPC调用时，按照一定算法从连接池中选择一个连接进行发起调用
 
-	conn, gerr := grpc.Dial(
+	grpcDialCtx, cancel := context.WithTimeout(context.Background(), time.Second*5)
+	defer cancel()
+	conn, gerr := grpc.DialContext(
+		grpcDialCtx,
 		"etcd:///foo/bar/my-service",
 
 		grpc.WithResolvers(etcdResolver),
